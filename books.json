@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "archetype": "Władza boi się prawdy – dystopie i literatura polityczna",
+    "dane_bibliograficzne": {
+      "tytul": "Rok 1984",
+      "autor": "George Orwell",
+      "rok_wydania": 1949,
+      "kraj_pochodzenia": "Wielka Brytania",
+      "gatunek": "Dystopia polityczna"
+    },
+    "o_czym_jest": "Akcja rozgrywa się w fikcyjnym państwie Oceania, rządzonym autorytarnie przez totalitarną Partię i wszechobecną postać zwaną Wielkim Bratem. Główny bohater, Winston Smith, pracuje w Ministerstwie Prawdy, gdzie zajmuje się fałszowaniem i przepisywaniem historii na bieżące potrzeby propagandy. Stopniowo zaczyna budzić się w nim wewnętrzny sprzeciw, przez co podejmuje próbę zachowania własnych myśli, tożsamości, pamięci i zakazanej miłości w świecie całkowitej inwigilacji.",
+    "dlaczego_byla_zakazywana": "Książka stała się uniwersalnym zagrożeniem dla systemów politycznych o skrajnej ideologii. Najczęstsze oficjalne zarzuty dotyczyły wyrazistej krytyki komunizmu i totalitaryzmu, rzekomego wydźwięku antypaństwowego, obecności wątków seksualnych oraz skrajnego nihilizmu i pesymizmu politycznego.",
+    "historia_cenzury": {
+      "gdzie": "Związek Radziecki, kraje bloku wschodniego (w tym PRL), Chiny, lokalne szkoły i biblioteki publiczne w USA.",
+      "kiedy": "Od momentu wydania w 1949 roku, przez całą zimną wojnę, aż do współczesnych incydentów cenzorskich w amerykańskich okręgach szkolnych.",
+      "przez_kogo": "Państwowe organy cenzury (GUKPPiW w Polsce, Główny Urząd Ochrony Tajemnic w ZSRR), rady pedagogiczne i konserwatywne komitety rodzicielskie.",
+      "jak_dlugo": "W bloku wschodnim całkowity zakaz druku i dystrybucji trwał prawie 40 lat (do przełomu lat 80. i 90.). W USA potyczki w bibliotekach mają charakter punktowy i powracają falami."
+    },
+    "co_najbardziej_przestraszylo_cenzorow": "Dla cenzorów najbardziej niebezpieczna okazała się nie przemoc czy obyczajowość, lecz precyzyjna wiwisekcja mechanizmu manipulacji prawdą. Przerażała ich idea, że władza może kontrolować przeszłość i narzucać definicję rzeczywistości za pomocą takich narzędzi jak nowomowa, dwójmyślenie czy Policja Myśli.",
+    "wplyw_na_kulture": "To jedna z najważniejszych i najczęściej cytowanych powieści XX wieku. Wprowadziła do języków świata pojęcia, które trwale opisują zagrożenia demokracji: 'orwellowski', 'Wielki Brat', 'nowomowa'. Stanowi fundament współczesnych debat o inwigilacji cyfrowej, algorytmach i dezinformacji.",
+    "przeczytaj_takze": [
+      "My",
+      "Nowy wspaniały świat",
+      "451° Fahrenheita",
+      "Ciemność w południe"
+    ],
+    "ciekawostki": [
+      "Orwell pisał tę powieść będąc śmiertelnie chorym na gruźlicę, w surowych warunkach na odizolowanej szkockiej wyspie Jura.",
+      "Roboczy tytuł brzmiał 'Ostatni człowiek w Europie', jednak wydawca przekonał autora do zmiany na bardziej komercyjny rok.",
+      "Sprzedaż książki drastycznie rośnie na całym świecie za każdym razem, gdy rządy wprowadzają nowe, kontrowersyjne programy nadzoru obywateli."
+    ],
+    "ocena_wplywu": {
+      "literacki": 5,
+      "polityczny": 5,
+      "filozoficzny": 5,
+      "spoleczny": 5,
+      "aktualnosc": 5
+    }
+  },
+  {
+    "id": 2,
+    "archetype": "Władza boi się prawdy – dystopie i literatura polityczna",
+    "dane_bibliograficzne": {
+      "tytul": "451° Fahrenheita",
+      "autor": "Ray Bradbury",
+      "rok_wydania": 1953,
+      "kraj_pochodzenia": "Stany Zjednoczone",
+      "gatunek": "Dystopia, fantastyka naukowa"
+    },
+    "o_czym_jest": "W futurystycznym, antyintelektualnym społeczeństwie posiadanie i czytanie książek jest surowo zabronione. Główny bohater, Guy Montag, jest 'strażakiem', którego zadaniem nie jest jednak gaszenie pożarów, lecz ich wzniecanie w celu niszczenia literatury i domów jej właścicieli. Pod wpływem spotkania z ekscentryczną dziewczyną Clarisse, Montag zaczyna dostrzegać potworną pustkę świata opartego na bezrefleksyjnej kulturze obrazkowej i natychmiastowej gratyfikacji.",
+    "dlaczego_byla_zakazywana": "Paradoksalnie, książka opowiadająca o destrukcyjnej sile cenzury sama padła jej ofiarą. Najczęstszymi oficjalnymi motywami były: używanie wulgarnego języka (słowa takie jak 'hell' czy 'damn'), rzekoma obraza uczuć religijnych (poprzez scenę palenia Biblii) oraz wzbudzanie niepokoju i buntu u młodzieży.",
+    "historia_cenzury": {
+      "gdzie": "Głównie w USA (szkoły średnie i biblioteki w Kalifornii, Missisipi, Teksasie) oraz w RPA w epoce apartheidu.",
+      "kiedy": "Notorycznie kwestionowana od lat 60. XX wieku po czasy współczesne.",
+      "przez_kogo": "Szkolne komitety rewizyjne, konserwatywne organizacje wyznaniowe, urzędnicy państwowi systemu apartheidu.",
+      "jak_dlugo": "Większość banów w USA miała charakter lokalny, ale w 1967 roku wydawnictwo Ballantine Books wydało potajemnie 'oczyszczoną' wersję szkolną pozbawioną wulgaryzmów, która krążyła w obiegu przez 13 lat, zanim autor wymusił jej wycofanie."
+    },
+    "co_najbardziej_przestraszylo_cenzorow": "Cenzorów najbardziej przeraziło lustro, jakie Bradbury postawił przed społeczeństwem konsumpcyjnym. Powieść obnażała mechanizm, w którym obywatele sami dobrowolnie rezygnują z myślenia na rzecz wszechobecnych ekranów telewizyjnych (tzw. 'ścian multimedialnych') i pigułek szczęścia.",
+    "wplyw_na_kulture": "Tytułowa temperatura (uznawana za temperaturę zapłonu papieru) stała się globalnym symbolem niszczenia wolnej myśli i cenzury. Doczekała się kultowych adaptacji filmowych (m.in. François Truffaut) i stanowi punkt odniesienia w dyskusjach o zaniku czytelnictwa.",
+    "przeczytaj_takze": [
+      "Rok 1984",
+      "Nowy wspaniały świat",
+      "Opowieść podręcznej",
+      "My"
+    ],
+    "ciekawostki": [
+      "Bradbury napisał pierwszy szkic powieści w piwnicy biblioteki UCLA na maszynie na monety – kosztowało go to łącznie 9 dolarów i 80 centów.",
+      "Mimo motywu palenia książek, autor wielokrotnie powtarzał, że prawdziwym wrogiem opisywanym w powieści jest uzależnienie od telewizji i mediów masowych.",
+      "W niektórych amerykańskich szkołach książka była wydawana uczniom z dosłownie zamalowanymi czarnym markerem pojedynczymi wyrazami."
+    ],
+    "ocena_wplywu": {
+      "literacki": 5,
+      "polityczny": 4,
+      "filozoficzny": 4,
+      "spoleczny": 5,
+      "aktualnosc": 5
+    }
+  }
+]
