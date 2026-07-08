@@ -50,7 +50,6 @@
                 <div class="space-y-2 pt-2">
                     <label class="text-xs text-zinc-500 font-medium">Archetypy cenzury</label>
                     <div id="archetype-filters" class="space-y-1.5 max-h-[250px] overflow-y-auto pr-1 custom-scrollbar">
-                        <!-- Dodano onclick="selectCategory('all')" w elemencie poniżej -->
                         <button class="w-full text-left text-xs px-2.5 py-2 rounded bg-red-950 bg-opacity-30 border border-red-900 text-red-400 font-medium filter-btn" data-archetype="all" onclick="selectCategory('all')">
                             Wszystkie kategorie
                         </button>
@@ -137,7 +136,7 @@
             document.getElementById('cors-warning').classList.remove('hidden');
         }
 
-        // Fetch standard database on document load
+        // Pobieranie bazy danych przy załadowaniu strony
         document.addEventListener("DOMContentLoaded", () => {
             fetch('books.json')
                 .then(response => {
@@ -147,7 +146,7 @@
                 .then(data => {
                     booksDatabase = data;
                     
-                    // Visual Indicator: Success Configuration
+                    // Wskaźnik sukcesu połączenia
                     document.getElementById('db-status-dot').className = "inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse";
                     document.getElementById('db-status-text').innerText = "Baza danych (books.json) podłączona";
                     document.getElementById('book-counter').className = "font-bold text-emerald-500";
@@ -157,12 +156,11 @@
                 .catch(error => {
                     console.error("Błąd krytyczny bazy danych:", error);
                     
-                    // Visual Indicator: Failure Configuration
+                    // Wskaźnik błędu
                     document.getElementById('db-status-dot').className = "inline-block h-2 w-2 rounded-full bg-red-500";
                     document.getElementById('db-status-text').innerText = "Błąd: Brak połączenia z plikiem JSON";
                     document.getElementById('book-counter').innerText = "Książki: błąd";
                     
-                    // Inject hard error state to the screen instead of misleading backups
                     const grid = document.getElementById('books-grid');
                     grid.innerHTML = `
                         <div class="col-span-full py-16 text-center border border-red-900 bg-red-950 bg-opacity-20 rounded-xl px-4 space-y-3">
@@ -213,6 +211,48 @@
             renderBooks();
         }
 
+        // Wyszukiwarka książek w bazie na podstawie tekstu rekomendacji
+        function findBookByTitle(recsTitle) {
+            if (!recsTitle) return null;
+            
+            // Funkcja pomocnicza oczyszczająca tekst do stabilnego porównania
+            const clean = (str) => str.toLowerCase()
+                .replace(/-\s*.*$/, '') // Usuwa dopisanego autora (np. " - George Orwell")
+                .replace(/[°º]/g, '') // Usuwa symbole stopnia
+                .replace(/stopni/g, '') // Usuwa słowo "stopni" do dopasowań "Fahrenheit 451"
+                .replace(/[^a-z0-9ąęćłńóśźż]/g, ' ') // Usuwa znaki specjalne i interpunkcję
+                .replace(/\s+/g, ' ') // Usuwa podwójne spacje
+                .trim();
+
+            const recClean = clean(recsTitle);
+            
+            // KROK 1: Dokładne dopasowanie oczyszczonego tytułu
+            let found = booksDatabase.find(b => clean(b.dane_bibliograficzne.tytul) === recClean);
+            if (found) return found;
+
+            // KROK 2: Dopasowanie częściowe (zawieranie się jednego tekstu w drugim)
+            found = booksDatabase.find(b => {
+                const bClean = clean(b.dane_bibliograficzne.tytul);
+                return bClean.includes(recClean) || recClean.includes(bClean);
+            });
+            if (found) return found;
+
+            // KROK 3: Heurystyka słów kluczowych dla specyficznych i historycznych tytułów
+            const words = recClean.split(' ');
+            const criticalWords = ['451', '1984', 'chrystusa', 'szatańskie', 'nowy', 'wspaniały', 'kopernik', 'chatterley', 'lolita', 'rak'];
+            
+            const matchedWord = words.find(w => criticalWords.includes(w));
+            if (matchedWord) {
+                found = booksDatabase.find(b => {
+                    const bClean = clean(b.dane_bibliograficzne.tytul);
+                    return bClean.includes(matchedWord);
+                });
+                if (found) return found;
+            }
+
+            return null;
+        }
+
         function renderBooks() {
             const grid = document.getElementById('books-grid');
             grid.innerHTML = '';
@@ -235,7 +275,6 @@
                 card.className = "bg-zinc-950 border border-zinc-800 rounded-xl p-5 hover:border-zinc-700 transition duration-300 flex flex-col justify-between shadow-lg hover:shadow-2xl cursor-pointer group";
                 card.onclick = () => openDetails(book.id);
                 
-                // Flexible separator handler to prevent layout breaks across different character dashes
                 const cleanArchetypeTitle = book.archetype.includes(' – ') ? book.archetype.split(' – ')[0] : book.archetype.split(' — ')[0];
 
                 card.innerHTML = `
@@ -286,9 +325,24 @@
             book.ciekawostki.forEach(t => { triviaHtml += `<li>${t}</li>`; });
             triviaHtml += '</ul>';
 
+            // Generowanie rekomendacji (z dynamicznym podłączaniem książek z bazy)
             let recsHtml = '<div class="flex flex-wrap gap-2">';
             book.przeczytaj_takze.forEach(r => { 
-                recsHtml += `<span class="bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1 rounded text-xs">${r}</span>`; 
+                const matched = findBookByTitle(r);
+                if (matched) {
+                    recsHtml += `
+                        <button onclick="openDetails(${matched.id})" class="bg-red-950 bg-opacity-40 hover:bg-opacity-70 border border-red-900 hover:border-red-600 text-red-300 px-3 py-1.5 rounded text-xs transition duration-200 flex items-center gap-1.5 group/btn" title="Kliknij, aby otworzyć kartę tej książki">
+                            <span>📖 ${r}</span>
+                            <span class="text-[9px] text-red-500 group-hover/btn:translate-x-0.5 transition-transform font-bold">→</span>
+                        </button>
+                    `;
+                } else {
+                    recsHtml += `
+                        <span class="bg-zinc-900 bg-opacity-60 border border-zinc-800 text-zinc-500 px-3 py-1.5 rounded text-xs cursor-not-allowed" title="Książka niedostępna jeszcze w bazie danych">
+                            ${r}
+                        </span>
+                    `; 
+                }
             });
             recsHtml += '</div>';
 
@@ -317,8 +371,8 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="space-y-2 accent-border pl-3">
-                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">4. Co najbardziej przestraszyło cenzorów?</h4>
-                        <p class="text-zinc-300">${book.co_najbasically_przestraszylo_cenzorow || book.co_najbardziej_przestraszylo_cenzorow}</p>
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">4. Co najbardziej przestraszylo cenzorów?</h4>
+                        <p class="text-zinc-300">${book.co_najbardziej_przestraszylo_cenzorow}</p>
                     </div>
                     <div class="space-y-2 accent-border pl-3">
                         <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">5. Jak książka wpłynęła na kulturę?</h4>
