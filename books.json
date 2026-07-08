@@ -76,5 +76,43 @@
       "spoleczny": 5,
       "aktualnosc": 5
     }
-  }
+  },
+  {
+"id": 3,
+"archetype": "1. Władza boi się prawdy – dystopie i literatura polityczna",
+"dane_bibliograficzne": {
+"tytul": "Nowy wspaniały świat",
+"autor": "Aldous Huxley",
+"rok_wydania": 1932,
+"kraj_pochodzenia": "Wielka Brytania",
+"gatunek": "Antyutopia / Dystopia"
+},
+"o_czym_jest": "Powieść Aldousa Huxleya przedstawia wizję społeczeństwa przyszłości (Republiki Świata), w którym ostatecznie wyeliminowano wojny, ubóstwo i choroby, ale za cenę całkowitej utraty wolności osobistej, wyższych uczuć, sztuki i religii. Ludzie są warunkowani genetycznie oraz psychologicznie (poprzez hipnopedię) już od momentu powstania w probówkach, a następnie przypisywani do konkretnych kast (od inteligentnych Alf po zredukowanych intelektualnie Epsilonów), co rzekomo gwarantuje absolutną stabilność społeczną. Społeczeństwo to opiera się na powszechnym konsumpcjonizmie, rozwiązłości seksualnej traktowanej jako obowiązek obywatelski oraz na zażywaniu narkotyku o nazwie 'soma', który skutecznie tłumi wszelkie negatywne emocje i bunt. Główny konflikt wybucha, gdy do tego pozornie idealnego, mechanicznego świata trafia John 'Dzikus' – człowiek wychowany w rezerwacie, znający na pamięć dzieła Szekspira i wyznający tradycyjne wartości moralne. Jego zderzenie z utylitarną, pozbawioną głębi cywilizacją demaskuje dehumanizujący charakter utopii, w której powierzchowny komfort fizyczny całkowicie zastąpił wolną wolę, indywidualizm i poszukiwanie prawdy.",
+"dlaczego_byla_zakazywana": "Oficjalnym powodem cenzury w wielu krajach była 'rozwiązłość' oraz rzekoma demoralizacja młodzieży. Władze oświatowe w USA i Irlandii zarzucały książce promowanie promiskuityzmu, pogardę dla tradycyjnego modelu rodziny (słowa 'matka' i 'ojciec' traktowane są w powieści jako wulgaryzmy) oraz negatywny i lekceważący stosunek do religii chrześcijańskiej. Prawdziwym, głębszym lękiem cenzorów była jednak niezwykle ostra krytyka mechanizmów kontroli społecznej i bezmyślnego konformizmu. Władze obawiały się, że powieść zbyt trafnie obnaża metody propagandowe, inżynierię społeczną oraz manipulowanie masami poprzez tanią rozrywkę, co mogło skłaniać obywateli (szczególnie młodzież) do kwestionowania narzucanego porządku społecznego i gospodarczego.",
+"historia_cenzury": {
+"gdzie": "Irlandia, Australia, Indie, liczne stany i okręgi szkolne w Stanach Zjednoczonych (m.in. Kalifornia, Teksas, Maryland, Missouri).",
+"kiedy": "Od momentu publikacji w 1932 roku (Irlandia), przez dekady powojenne (lata 60. i 70. w Indiach i Australii), aż po liczne i regularne wyzwania w amerykańskich szkołach w latach 80., 90. oraz w XXI wieku.",
+"przez_kogo": "Krajowe rady ds. cenzury (np. Irish Censorship of Publications Board), państwowe urzędy telekomunikacji i informacji, zrzeszenia konserwatywnych rodziców oraz lokalne rady szkolne i dyrekcje bibliotek publicznych.",
+"jak_dlugo": "W Irlandii twardy zakaz obowiązywał przez kilka dziesięcioleci od wydania. W Stanach Zjednoczonych książka regularnie, niemal w każdej dekadzie, trafia na indeksy lektur zakazanych lub kwestionowanych w poszczególnych dystryktach oświatowych, zmagając się z próbami usunięcia z programów nauczania aż do dzisiaj."
+},
+"co_najbardziej_przestraszylo_cenzorow": "Przerażenie cenzorów wywołała teza, że najskuteczniejszym i najgroźniejszym narzędziem zniewolenia wcale nie jest aparat policyjnego terroru i przemocy, lecz nieograniczona, ogólnodostępna rozrywka, płytka przyjemność fizyczna i wszechobecna technologiczna manipulacja. Bali się oni uświadomienia czytelnikom, że zachodnie społeczeństwa mogą dobrowolnie oddać swoją wolność, poddając się inwigilacji za obietnicę bezpieczeństwa, wiecznej młodości i braku cierpienia.",
+"wplyw_na_kulture": "Książka Huxleya jest jednym z absolutnych filarów XX-wiecznej literatury dystopijnej. Stanowi intelektualną przeciwwagę dla 'Roku 1984' George'a Orwella, wprowadzając model 'totalitaryzmu przyjemności' (zamiast totalitaryzmu strachu). Wprowadziła do języka potocznego terminy takie jak 'soma' czy samo wyrażenie 'nowy wspaniały świat' jako ironiczne określenie technologicznej, odhumanizowanej utopii. Jej tezy fundamentalnie wpłynęły na socjologię, filozofię techniki, analizę mediów (m.in. prace Neila Postmana) oraz światową popkulturę, stanowiąc inspirację dla niezliczonych filmów i książek science fiction.",
+"przeczytaj_takze": [
+"Rok 1984 - George Orwell",
+"451 stopni Fahrenheita - Ray Bradbury",
+"My - Jewgienij Zamiatin"
+],
+"ciekawostki": [
+"Tytuł książki został bezpośrednio zaczerpnięty z aktu V sztuki 'Burza' Williama Szekspira, w którym naiwna Miranda zachwyca się ludźmi przybyłymi na wyspę słowami: 'O wonder! How many goodly creatures are there here! (...) O brave new world, That has such people in't!'.",
+"Powieść pierwotnie zaczęła powstawać jako parodia hurraoptymistycznych, utopijnych powieści H.G. Wellsa (takich jak 'Ludzie jak bogowie'), jednak w trakcie procesu twórczego ewoluowała w ponurą, autonomiczną dystopię.",
+"W 1958 roku, 26 lat po premierze powieści, Aldous Huxley opublikował zbiór esejów zatytułowany 'Nowy wspaniały świat poprawiony', w którym ze zgrozą przyznał, że wiele z jego pesymistycznych przepowiedni dotyczących manipulacji społeczeństwem realizuje się znacznie szybciej, niż sam początkowo zakładał."
+],
+"ocena_wplywu": {
+"literacki": 5,
+"polityczny": 4,
+"filozoficzny": 5,
+"spoleczny": 5,
+"aktualnosc": 5
+}
+}
 ]
