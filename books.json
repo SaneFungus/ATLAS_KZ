@@ -152,5 +152,43 @@
          "spoleczny":5,
          "aktualnosc":5
       }
+   },
+   {
+      "id":5,
+      "archetype":"1. Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"My",
+         "autor":"Jewgienij Zamiatin",
+         "rok_wydania":1924,
+         "kraj_pochodzenia":"ZSRR",
+         "gatunek":"Dystopia, Fantastyka naukowa"
+      },
+      "o_czym_jest":"Akcja powieści toczy się w odległej przyszłości, w zmatematyzowanym Państwie Jedynym, które odcięte jest od dzikiej natury za pomocą potężnego Zielonego Muru. Mieszkańcy tego totalitarnego świata pozbawieni są imion i nazwisk – zamiast tego posługują się przydzielonymi numerami (głównym bohaterem i narratorem jest konstruktor statku kosmicznego Integrale o numerze D-503). Ich życie jest całkowicie zracjonalizowane i z góry zaplanowane przez Godzinowe Tablice, określające precyzyjnie czas na pracę, sen, a nawet miłość fizyczną, odbywającą się za okazaniem różowych biletów. Nad wszystkim czuwa despotyczny Dobroczyńca. Rutynowe, pozbawione trosk życie D-503 rozpada się w momencie spotkania tajemniczej, zbuntowanej kobiety I-330, która wciąga go w spisek antyrządowy. Bohater zaczyna odczuwać irracjonalne emocje – miłość oraz posiadanie duszy, co w jego społeczeństwie uznawane jest za niebezpieczną chorobę psychiczną, którą leczy się chirurgicznym wycięciem wyobraźni.",
+      "dlaczego_byla_zakazywana":"Powieść stała się obiektem natychmiastowej agresji cenzorskiej, ponieważ stanowiła niezwykle trafną, profetyczną satyrę na nowo powstający system radziecki oraz bezduszną, ślepą industrializację. Zamiatin, chociaż początkowo sympatyzował z bolszewikami, szybko dostrzegł zagrożenie tkwiące w dążeniu partii do całkowitego podporządkowania jednostki kolektywowi, stłumienia indywidualizmu i zamiany wolnej woli w bezrefleksyjne posłuszeństwo. Radzieccy urzędnicy i cenzorzy bez trudu dostrzegli w postaci Dobroczyńcy i mechanizmach Państwa Jedynego karykaturę nowej, komunistycznej rzeczywistości społecznej, uznając dzieło za wrogą propagandę i antyradziecki paszkwil.",
+      "historia_cenzury":{
+         "gdzie":"Związek Radziecki (ZSRR) oraz pozostałe kraje bloku wschodniego.",
+         "kiedy":"Napisana w latach 1920–1921, objęta natychmiastowym zakazem druku. Stan cenzury trwał w ZSRR aż do 1988 roku.",
+         "przez_kogo":"Główny Urząd ds. Literatury i Wydawnictw (Gławlit), radzieckie organizacje pisarzy podległe partii bolszewickiej.",
+         "jak_dlugo":"Zakaz publikacji w ojczyźnie pisarza obowiązywał przez 64 lata od momentu pierwszego wydania na świecie."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Ideologiczna koncepcja nieskończonej rewolucji wygłoszona przez I-330, która twierdziła, że nie istnieje „ostatnia rewolucja”, ponieważ ich liczba jest nieskończona tak jak liczby matematyczne. Było to bezpośrednie uderzenie w radziecki dogmat głoszący, że rewolucja październikowa stanowiła ostateczny, idealny kres historycznych przemian. Cenzorów przeraziło także przedstawienie przymusowego usuwania wyobraźni (Wielkiej Operacji) jako ostatecznego narzędzia pacyfikacji obywateli przez aparat państwowy.",
+      "wplyw_na_kulture":"Książka stała się fundamentem i bezpośrednim źródłem inspiracji dla najważniejszych dzieł literatury dystopijnej XX wieku. George Orwell otwarcie przyznawał, że pisał swoją powieść „Rok 1984” pod ogromnym wpływem lektury dzieła Zamiatina. Podobny wpływ „My” wywarło na Aldousa Huxleya przy tworzeniu „Nowego wspaniałego świata”.",
+      "przeczytaj_takze":[
+         "Rok 1984",
+         "Nowy wspaniały świat",
+         "Fahrenheit 451"
+      ],
+      "ciekawostki":[
+         "Z powodu całkowitej blokady cenzorskiej w Rosji, powieść po raz pierwszy ukazała się drukiem w 1924 roku w Nowym Jorku, przetłumaczona na język angielski.",
+         "W 1931 roku, będąc ofiarą bezwzględnej nagonki literackiej i politycznej w ZSRR, Zamiatin napisał odważny, osobisty list bezpośrednio do Józefa Stalina, prosząc go o zgodę na wyjazd z kraju. Dzięki wstawiennictwu Maksyma Gorkiego dyktator niespodziewanie wyraził zgodę na emigrację pisarza do Francji.",
+         "W Związku Radzieckim pełny, oryginalny tekst powieści został oficjalnie opublikowany dopiero w 1988 roku, w dobie reform pierestrojki, ponad pół wieku po śmierci autora w Paryżu."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":5,
+         "filozoficzny":5,
+         "spoleczny":4,
+         "aktualnosc":5
+      }
    }
 ]
