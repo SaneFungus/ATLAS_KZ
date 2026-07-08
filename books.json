@@ -1,118 +1,118 @@
 [
-  {
-    "id": 1,
-    "archetype": "Władza boi się prawdy – dystopie i literatura polityczna",
-    "dane_bibliograficzne": {
-      "tytul": "Rok 1984",
-      "autor": "George Orwell",
-      "rok_wydania": 1949,
-      "kraj_pochodzenia": "Wielka Brytania",
-      "gatunek": "Dystopia polityczna"
-    },
-    "o_czym_jest": "Akcja rozgrywa się w fikcyjnym państwie Oceania, rządzonym autorytarnie przez totalitarną Partię i wszechobecną postać zwaną Wielkim Bratem. Główny bohater, Winston Smith, pracuje w Ministerstwie Prawdy, gdzie zajmuje się fałszowaniem i przepisywaniem historii na bieżące potrzeby propagandy. Stopniowo zaczyna budzić się w nim wewnętrzny sprzeciw, przez co podejmuje próbę zachowania własnych myśli, tożsamości, pamięci i zakazanej miłości w świecie całkowitej inwigilacji.",
-    "dlaczego_byla_zakazywana": "Książka stała się uniwersalnym zagrożeniem dla systemów politycznych o skrajnej ideologii. Najczęstsze oficjalne zarzuty dotyczyły wyrazistej krytyki komunizmu i totalitaryzmu, rzekomego wydźwięku antypaństwowego, obecności wątków seksualnych oraz skrajnego nihilizmu i pesymizmu politycznego.",
-    "historia_cenzury": {
-      "gdzie": "Związek Radziecki, kraje bloku wschodniego (w tym PRL), Chiny, lokalne szkoły i biblioteki publiczne w USA.",
-      "kiedy": "Od momentu wydania w 1949 roku, przez całą zimną wojnę, aż do współczesnych incydentów cenzorskich w amerykańskich okręgach szkolnych.",
-      "przez_kogo": "Państwowe organy cenzury (GUKPPiW w Polsce, Główny Urząd Ochrony Tajemnic w ZSRR), rady pedagogiczne i konserwatywne komitety rodzicielskie.",
-      "jak_dlugo": "W bloku wschodnim całkowity zakaz druku i dystrybucji trwał prawie 40 lat (do przełomu lat 80. i 90.). W USA potyczki w bibliotekach mają charakter punktowy i powracają falami."
-    },
-    "co_najbardziej_przestraszylo_cenzorow": "Dla cenzorów najbardziej niebezpieczna okazała się nie przemoc czy obyczajowość, lecz precyzyjna wiwisekcja mechanizmu manipulacji prawdą. Przerażała ich idea, że władza może kontrolować przeszłość i narzucać definicję rzeczywistości za pomocą takich narzędzi jak nowomowa, dwójmyślenie czy Policja Myśli.",
-    "wplyw_na_kulture": "To jedna z najważniejszych i najczęściej cytowanych powieści XX wieku. Wprowadziła do języków świata pojęcia, które trwale opisują zagrożenia demokracji: 'orwellowski', 'Wielki Brat', 'nowomowa'. Stanowi fundament współczesnych debat o inwigilacji cyfrowej, algorytmach i dezinformacji.",
-    "przeczytaj_takze": [
-      "My",
-      "Nowy wspaniały świat",
-      "451° Fahrenheita",
-      "Ciemność w południe"
-    ],
-    "ciekawostki": [
-      "Orwell pisał tę powieść będąc śmiertelnie chorym na gruźlicę, w surowych warunkach na odizolowanej szkockiej wyspie Jura.",
-      "Roboczy tytuł brzmiał 'Ostatni człowiek w Europie', jednak wydawca przekonał autora do zmiany na bardziej komercyjny rok.",
-      "Sprzedaż książki drastycznie rośnie na całym świecie za każdym razem, gdy rządy wprowadzają nowe, kontrowersyjne programy nadzoru obywateli."
-    ],
-    "ocena_wplywu": {
-      "literacki": 5,
-      "polityczny": 5,
-      "filozoficzny": 5,
-      "spoleczny": 5,
-      "aktualnosc": 5
-    }
-  },
-  {
-    "id": 2,
-    "archetype": "Władza boi się prawdy – dystopie i literatura polityczna",
-    "dane_bibliograficzne": {
-      "tytul": "451° Fahrenheita",
-      "autor": "Ray Bradbury",
-      "rok_wydania": 1953,
-      "kraj_pochodzenia": "Stany Zjednoczone",
-      "gatunek": "Dystopia, fantastyka naukowa"
-    },
-    "o_czym_jest": "W futurystycznym, antyintelektualnym społeczeństwie posiadanie i czytanie książek jest surowo zabronione. Główny bohater, Guy Montag, jest 'strażakiem', którego zadaniem nie jest jednak gaszenie pożarów, lecz ich wzniecanie w celu niszczenia literatury i domów jej właścicieli. Pod wpływem spotkania z ekscentryczną dziewczyną Clarisse, Montag zaczyna dostrzegać potworną pustkę świata opartego na bezrefleksyjnej kulturze obrazkowej i natychmiastowej gratyfikacji.",
-    "dlaczego_byla_zakazywana": "Paradoksalnie, książka opowiadająca o destrukcyjnej sile cenzury sama padła jej ofiarą. Najczęstszymi oficjalnymi motywami były: używanie wulgarnego języka (słowa takie jak 'hell' czy 'damn'), rzekoma obraza uczuć religijnych (poprzez scenę palenia Biblii) oraz wzbudzanie niepokoju i buntu u młodzieży.",
-    "historia_cenzury": {
-      "gdzie": "Głównie w USA (szkoły średnie i biblioteki w Kalifornii, Missisipi, Teksasie) oraz w RPA w epoce apartheidu.",
-      "kiedy": "Notorycznie kwestionowana od lat 60. XX wieku po czasy współczesne.",
-      "przez_kogo": "Szkolne komitety rewizyjne, konserwatywne organizacje wyznaniowe, urzędnicy państwowi systemu apartheidu.",
-      "jak_dlugo": "Większość banów w USA miała charakter lokalny, ale w 1967 roku wydawnictwo Ballantine Books wydało potajemnie 'oczyszczoną' wersję szkolną pozbawioną wulgaryzmów, która krążyła w obiegu przez 13 lat, zanim autor wymusił jej wycofanie."
-    },
-    "co_najbardziej_przestraszylo_cenzorow": "Cenzorów najbardziej przeraziło lustro, jakie Bradbury postawił przed społeczeństwem konsumpcyjnym. Powieść obnażała mechanizm, w którym obywatele sami dobrowolnie rezygnują z myślenia na rzecz wszechobecnych ekranów telewizyjnych (tzw. 'ścian multimedialnych') i pigułek szczęścia.",
-    "wplyw_na_kulture": "Tytułowa temperatura (uznawana za temperaturę zapłonu papieru) stała się globalnym symbolem niszczenia wolnej myśli i cenzury. Doczekała się kultowych adaptacji filmowych (m.in. François Truffaut) i stanowi punkt odniesienia w dyskusjach o zaniku czytelnictwa.",
-    "przeczytaj_takze": [
-      "Rok 1984",
-      "Nowy wspaniały świat",
-      "Opowieść podręcznej",
-      "My"
-    ],
-    "ciekawostki": [
-      "Bradbury napisał pierwszy szkic powieści w piwnicy biblioteki UCLA na maszynie na monety – kosztowało go to łącznie 9 dolarów i 80 centów.",
-      "Mimo motywu palenia książek, autor wielokrotnie powtarzał, że prawdziwym wrogiem opisywanym w powieści jest uzależnienie od telewizji i mediów masowych.",
-      "W niektórych amerykańskich szkołach książka była wydawana uczniom z dosłownie zamalowanymi czarnym markerem pojedynczymi wyrazami."
-    ],
-    "ocena_wplywu": {
-      "literacki": 5,
-      "polityczny": 4,
-      "filozoficzny": 4,
-      "spoleczny": 5,
-      "aktualnosc": 5
-    }
-  },
-  {
-"id": 3,
-"archetype": "1. Władza boi się prawdy – dystopie i literatura polityczna",
-"dane_bibliograficzne": {
-"tytul": "Nowy wspaniały świat",
-"autor": "Aldous Huxley",
-"rok_wydania": 1932,
-"kraj_pochodzenia": "Wielka Brytania",
-"gatunek": "Antyutopia / Dystopia"
-},
-"o_czym_jest": "Powieść Aldousa Huxleya przedstawia wizję społeczeństwa przyszłości (Republiki Świata), w którym ostatecznie wyeliminowano wojny, ubóstwo i choroby, ale za cenę całkowitej utraty wolności osobistej, wyższych uczuć, sztuki i religii. Ludzie są warunkowani genetycznie oraz psychologicznie (poprzez hipnopedię) już od momentu powstania w probówkach, a następnie przypisywani do konkretnych kast (od inteligentnych Alf po zredukowanych intelektualnie Epsilonów), co rzekomo gwarantuje absolutną stabilność społeczną. Społeczeństwo to opiera się na powszechnym konsumpcjonizmie, rozwiązłości seksualnej traktowanej jako obowiązek obywatelski oraz na zażywaniu narkotyku o nazwie 'soma', który skutecznie tłumi wszelkie negatywne emocje i bunt. Główny konflikt wybucha, gdy do tego pozornie idealnego, mechanicznego świata trafia John 'Dzikus' – człowiek wychowany w rezerwacie, znający na pamięć dzieła Szekspira i wyznający tradycyjne wartości moralne. Jego zderzenie z utylitarną, pozbawioną głębi cywilizacją demaskuje dehumanizujący charakter utopii, w której powierzchowny komfort fizyczny całkowicie zastąpił wolną wolę, indywidualizm i poszukiwanie prawdy.",
-"dlaczego_byla_zakazywana": "Oficjalnym powodem cenzury w wielu krajach była 'rozwiązłość' oraz rzekoma demoralizacja młodzieży. Władze oświatowe w USA i Irlandii zarzucały książce promowanie promiskuityzmu, pogardę dla tradycyjnego modelu rodziny (słowa 'matka' i 'ojciec' traktowane są w powieści jako wulgaryzmy) oraz negatywny i lekceważący stosunek do religii chrześcijańskiej. Prawdziwym, głębszym lękiem cenzorów była jednak niezwykle ostra krytyka mechanizmów kontroli społecznej i bezmyślnego konformizmu. Władze obawiały się, że powieść zbyt trafnie obnaża metody propagandowe, inżynierię społeczną oraz manipulowanie masami poprzez tanią rozrywkę, co mogło skłaniać obywateli (szczególnie młodzież) do kwestionowania narzucanego porządku społecznego i gospodarczego.",
-"historia_cenzury": {
-"gdzie": "Irlandia, Australia, Indie, liczne stany i okręgi szkolne w Stanach Zjednoczonych (m.in. Kalifornia, Teksas, Maryland, Missouri).",
-"kiedy": "Od momentu publikacji w 1932 roku (Irlandia), przez dekady powojenne (lata 60. i 70. w Indiach i Australii), aż po liczne i regularne wyzwania w amerykańskich szkołach w latach 80., 90. oraz w XXI wieku.",
-"przez_kogo": "Krajowe rady ds. cenzury (np. Irish Censorship of Publications Board), państwowe urzędy telekomunikacji i informacji, zrzeszenia konserwatywnych rodziców oraz lokalne rady szkolne i dyrekcje bibliotek publicznych.",
-"jak_dlugo": "W Irlandii twardy zakaz obowiązywał przez kilka dziesięcioleci od wydania. W Stanach Zjednoczonych książka regularnie, niemal w każdej dekadzie, trafia na indeksy lektur zakazanych lub kwestionowanych w poszczególnych dystryktach oświatowych, zmagając się z próbami usunięcia z programów nauczania aż do dzisiaj."
-},
-"co_najbardziej_przestraszylo_cenzorow": "Przerażenie cenzorów wywołała teza, że najskuteczniejszym i najgroźniejszym narzędziem zniewolenia wcale nie jest aparat policyjnego terroru i przemocy, lecz nieograniczona, ogólnodostępna rozrywka, płytka przyjemność fizyczna i wszechobecna technologiczna manipulacja. Bali się oni uświadomienia czytelnikom, że zachodnie społeczeństwa mogą dobrowolnie oddać swoją wolność, poddając się inwigilacji za obietnicę bezpieczeństwa, wiecznej młodości i braku cierpienia.",
-"wplyw_na_kulture": "Książka Huxleya jest jednym z absolutnych filarów XX-wiecznej literatury dystopijnej. Stanowi intelektualną przeciwwagę dla 'Roku 1984' George'a Orwella, wprowadzając model 'totalitaryzmu przyjemności' (zamiast totalitaryzmu strachu). Wprowadziła do języka potocznego terminy takie jak 'soma' czy samo wyrażenie 'nowy wspaniały świat' jako ironiczne określenie technologicznej, odhumanizowanej utopii. Jej tezy fundamentalnie wpłynęły na socjologię, filozofię techniki, analizę mediów (m.in. prace Neila Postmana) oraz światową popkulturę, stanowiąc inspirację dla niezliczonych filmów i książek science fiction.",
-"przeczytaj_takze": [
-"Rok 1984 - George Orwell",
-"451 stopni Fahrenheita - Ray Bradbury",
-"My - Jewgienij Zamiatin"
-],
-"ciekawostki": [
-"Tytuł książki został bezpośrednio zaczerpnięty z aktu V sztuki 'Burza' Williama Szekspira, w którym naiwna Miranda zachwyca się ludźmi przybyłymi na wyspę słowami: 'O wonder! How many goodly creatures are there here! (...) O brave new world, That has such people in't!'.",
-"Powieść pierwotnie zaczęła powstawać jako parodia hurraoptymistycznych, utopijnych powieści H.G. Wellsa (takich jak 'Ludzie jak bogowie'), jednak w trakcie procesu twórczego ewoluowała w ponurą, autonomiczną dystopię.",
-"W 1958 roku, 26 lat po premierze powieści, Aldous Huxley opublikował zbiór esejów zatytułowany 'Nowy wspaniały świat poprawiony', w którym ze zgrozą przyznał, że wiele z jego pesymistycznych przepowiedni dotyczących manipulacji społeczeństwem realizuje się znacznie szybciej, niż sam początkowo zakładał."
-],
-"ocena_wplywu": {
-"literacki": 5,
-"polityczny": 4,
-"filozoficzny": 5,
-"spoleczny": 5,
-"aktualnosc": 5
-}
-}
+   {
+      "id":1,
+      "archetype":"Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"Rok 1984",
+         "autor":"George Orwell",
+         "rok_wydania":1949,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Dystopia polityczna"
+      },
+      "o_czym_jest":"Akcja rozgrywa się w fikcyjnym państwie Oceania, rządzonym autorytarnie przez totalitarną Partię i wszechobecną postać zwaną Wielkim Bratem. Główny bohater, Winston Smith, pracuje w Ministerstwie Prawdy, gdzie zajmuje się fałszowaniem i przepisywaniem historii na bieżące potrzeby propagandy. Stopniowo zaczyna budzić się w nim wewnętrzny sprzeciw, przez co podejmuje próbę zachowania własnych myśli, tożsamości, pamięci i zakazanej miłości w świecie całkowitej inwigilacji.",
+      "dlaczego_byla_zakazywana":"Książka stała się uniwersalnym zagrożeniem dla systemów politycznych o skrajnej ideologii. Najczęstsze oficjalne zarzuty dotyczyły wyrazistej krytyki komunizmu i totalitaryzmu, rzekomego wydźwięku antypaństwowego, obecności wątków seksualnych oraz skrajnego nihilizmu i pesymizmu politycznego.",
+      "historia_cenzury":{
+         "gdzie":"Związek Radziecki, kraje bloku wschodniego (w tym PRL), Chiny, lokalne szkoły i biblioteki publiczne w USA.",
+         "kiedy":"Od momentu wydania w 1949 roku, przez całą zimną wojnę, aż do współczesnych incydentów cenzorskich w amerykańskich okręgach szkolnych.",
+         "przez_kogo":"Państwowe organy cenzury (GUKPPiW w Polsce, Główny Urząd Ochrony Tajemnic w ZSRR), rady pedagogiczne i konserwatywne komitety rodzicielskie.",
+         "jak_dlugo":"W bloku wschodnim całkowity zakaz druku i dystrybucji trwał prawie 40 lat (do przełomu lat 80. i 90.). W USA potyczki w bibliotekach mają charakter punktowy i powracają falami."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Dla cenzorów najbardziej niebezpieczna okazała się nie przemoc czy obyczajowość, lecz precyzyjna wiwisekcja mechanizmu manipulacji prawdą. Przerażała ich idea, że władza może kontrolować przeszłość i narzucać definicję rzeczywistości za pomocą takich narzędzi jak nowomowa, dwójmyślenie czy Policja Myśli.",
+      "wplyw_na_kulture":"To jedna z najważniejszych i najczęściej cytowanych powieści XX wieku. Wprowadziła do języków świata pojęcia, które trwale opisują zagrożenia demokracji: 'orwellowski', 'Wielki Brat', 'nowomowa'. Stanowi fundament współczesnych debat o inwigilacji cyfrowej, algorytmach i dezinformacji.",
+      "przeczytaj_takze":[
+         "My",
+         "Nowy wspaniały świat",
+         "451° Fahrenheita",
+         "Ciemność w południe"
+      ],
+      "ciekawostki":[
+         "Orwell pisał tę powieść będąc śmiertelnie chorym na gruźlicę, w surowych warunkach na odizolowanej szkockiej wyspie Jura.",
+         "Roboczy tytuł brzmiał 'Ostatni człowiek w Europie', jednak wydawca przekonał autora do zmiany na bardziej komercyjny rok.",
+         "Sprzedaż książki drastycznie rośnie na całym świecie za każdym razem, gdy rządy wprowadzają nowe, kontrowersyjne programy nadzoru obywateli."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":5,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":2,
+      "archetype":"Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"451° Fahrenheita",
+         "autor":"Ray Bradbury",
+         "rok_wydania":1953,
+         "kraj_pochodzenia":"Stany Zjednoczone",
+         "gatunek":"Dystopia, fantastyka naukowa"
+      },
+      "o_czym_jest":"W futurystycznym, antyintelektualnym społeczeństwie posiadanie i czytanie książek jest surowo zabronione. Główny bohater, Guy Montag, jest 'strażakiem', którego zadaniem nie jest jednak gaszenie pożarów, lecz ich wzniecanie w celu niszczenia literatury i domów jej właścicieli. Pod wpływem spotkania z ekscentryczną dziewczyną Clarisse, Montag zaczyna dostrzegać potworną pustkę świata opartego na bezrefleksyjnej kulturze obrazkowej i natychmiastowej gratyfikacji.",
+      "dlaczego_byla_zakazywana":"Paradoksalnie, książka opowiadająca o destrukcyjnej sile cenzury sama padła jej ofiarą. Najczęstszymi oficjalnymi motywami były: używanie wulgarnego języka (słowa takie jak 'hell' czy 'damn'), rzekoma obraza uczuć religijnych (poprzez scenę palenia Biblii) oraz wzbudzanie niepokoju i buntu u młodzieży.",
+      "historia_cenzury":{
+         "gdzie":"Głównie w USA (szkoły średnie i biblioteki w Kalifornii, Missisipi, Teksasie) oraz w RPA w epoce apartheidu.",
+         "kiedy":"Notorycznie kwestionowana od lat 60. XX wieku po czasy współczesne.",
+         "przez_kogo":"Szkolne komitety rewizyjne, konserwatywne organizacje wyznaniowe, urzędnicy państwowi systemu apartheidu.",
+         "jak_dlugo":"Większość banów w USA miała charakter lokalny, ale w 1967 roku wydawnictwo Ballantine Books wydało potajemnie 'oczyszczoną' wersję szkolną pozbawioną wulgaryzmów, która krążyła w obiegu przez 13 lat, zanim autor wymusił jej wycofanie."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Cenzorów najbardziej przeraziło lustro, jakie Bradbury postawił przed społeczeństwem konsumpcyjnym. Powieść obnażała mechanizm, w którym obywatele sami dobrowolnie rezygnują z myślenia na rzecz wszechobecnych ekranów telewizyjnych (tzw. 'ścian multimedialnych') i pigułek szczęścia.",
+      "wplyw_na_kulture":"Tytułowa temperatura (uznawana za temperaturę zapłonu papieru) stała się globalnym symbolem niszczenia wolnej myśli i cenzury. Doczekała się kultowych adaptacji filmowych (m.in. François Truffaut) i stanowi punkt odniesienia w dyskusjach o zaniku czytelnictwa.",
+      "przeczytaj_takze":[
+         "Rok 1984",
+         "Nowy wspaniały świat",
+         "Opowieść podręcznej",
+         "My"
+      ],
+      "ciekawostki":[
+         "Bradbury napisał pierwszy szkic powieści w piwnicy biblioteki UCLA na maszynie na monety – kosztowało go to łącznie 9 dolarów i 80 centów.",
+         "Mimo motywu palenia książek, autor wielokrotnie powtarzał, że prawdziwym wrogiem opisywanym w powieści jest uzależnienie od telewizji i mediów masowych.",
+         "W niektórych amerykańskich szkołach książka była wydawana uczniom z dosłownie zamalowanymi czarnym markerem pojedynczymi wyrazami."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":4,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":3,
+      "archetype":"1. Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"Nowy wspaniały świat",
+         "autor":"Aldous Huxley",
+         "rok_wydania":1932,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Antyutopia / Dystopia"
+      },
+      "o_czym_jest":"Powieść Aldousa Huxleya przedstawia wizję społeczeństwa przyszłości (Republiki Świata), w którym ostatecznie wyeliminowano wojny, ubóstwo i choroby, ale za cenę całkowitej utraty wolności osobistej, wyższych uczuć, sztuki i religii. Ludzie są warunkowani genetycznie oraz psychologicznie (poprzez hipnopedię) już od momentu powstania w probówkach, a następnie przypisywani do konkretnych kast (od inteligentnych Alf po zredukowanych intelektualnie Epsilonów), co rzekomo gwarantuje absolutną stabilność społeczną. Społeczeństwo to opiera się na powszechnym konsumpcjonizmie, rozwiązłości seksualnej traktowanej jako obowiązek obywatelski oraz na zażywaniu narkotyku o nazwie 'soma', który skutecznie tłumi wszelkie negatywne emocje i bunt. Główny konflikt wybucha, gdy do tego pozornie idealnego, mechanicznego świata trafia John 'Dzikus' – człowiek wychowany w rezerwacie, znający na pamięć dzieła Szekspira i wyznający tradycyjne wartości moralne. Jego zderzenie z utylitarną, pozbawioną głębi cywilizacją demaskuje dehumanizujący charakter utopii, w której powierzchowny komfort fizyczny całkowicie zastąpił wolną wolę, indywidualizm i poszukiwanie prawdy.",
+      "dlaczego_byla_zakazywana":"Oficjalnym powodem cenzury w wielu krajach była 'rozwiązłość' oraz rzekoma demoralizacja młodzieży. Władze oświatowe w USA i Irlandii zarzucały książce promowanie promiskuityzmu, pogardę dla tradycyjnego modelu rodziny (słowa 'matka' i 'ojciec' traktowane są w powieści jako wulgaryzmy) oraz negatywny i lekceważący stosunek do religii chrześcijańskiej. Prawdziwym, głębszym lękiem cenzorów była jednak niezwykle ostra krytyka mechanizmów kontroli społecznej i bezmyślnego konformizmu. Władze obawiały się, że powieść zbyt trafnie obnaża metody propagandowe, inżynierię społeczną oraz manipulowanie masami poprzez tanią rozrywkę, co mogło skłaniać obywateli (szczególnie młodzież) do kwestionowania narzucanego porządku społecznego i gospodarczego.",
+      "historia_cenzury":{
+         "gdzie":"Irlandia, Australia, Indie, liczne stany i okręgi szkolne w Stanach Zjednoczonych (m.in. Kalifornia, Teksas, Maryland, Missouri).",
+         "kiedy":"Od momentu publikacji w 1932 roku (Irlandia), przez dekady powojenne (lata 60. i 70. w Indiach i Australii), aż po liczne i regularne wyzwania w amerykańskich szkołach w latach 80., 90. oraz w XXI wieku.",
+         "przez_kogo":"Krajowe rady ds. cenzury (np. Irish Censorship of Publications Board), państwowe urzędy telekomunikacji i informacji, zrzeszenia konserwatywnych rodziców oraz lokalne rady szkolne i dyrekcje bibliotek publicznych.",
+         "jak_dlugo":"W Irlandii twardy zakaz obowiązywał przez kilka dziesięcioleci od wydania. W Stanach Zjednoczonych książka regularnie, niemal w każdej dekadzie, trafia na indeksy lektur zakazanych lub kwestionowanych w poszczególnych dystryktach oświatowych, zmagając się z próbami usunięcia z programów nauczania aż do dzisiaj."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Przerażenie cenzorów wywołała teza, że najskuteczniejszym i najgroźniejszym narzędziem zniewolenia wcale nie jest aparat policyjnego terroru i przemocy, lecz nieograniczona, ogólnodostępna rozrywka, płytka przyjemność fizyczna i wszechobecna technologiczna manipulacja. Bali się oni uświadomienia czytelnikom, że zachodnie społeczeństwa mogą dobrowolnie oddać swoją wolność, poddając się inwigilacji za obietnicę bezpieczeństwa, wiecznej młodości i braku cierpienia.",
+      "wplyw_na_kulture":"Książka Huxleya jest jednym z absolutnych filarów XX-wiecznej literatury dystopijnej. Stanowi intelektualną przeciwwagę dla 'Roku 1984' George'a Orwella, wprowadzając model 'totalitaryzmu przyjemności' (zamiast totalitaryzmu strachu). Wprowadziła do języka potocznego terminy takie jak 'soma' czy samo wyrażenie 'nowy wspaniały świat' jako ironiczne określenie technologicznej, odhumanizowanej utopii. Jej tezy fundamentalnie wpłynęły na socjologię, filozofię techniki, analizę mediów (m.in. prace Neila Postmana) oraz światową popkulturę, stanowiąc inspirację dla niezliczonych filmów i książek science fiction.",
+      "przeczytaj_takze":[
+         "Rok 1984 - George Orwell",
+         "451 stopni Fahrenheita - Ray Bradbury",
+         "My - Jewgienij Zamiatin"
+      ],
+      "ciekawostki":[
+         "Tytuł książki został bezpośrednio zaczerpnięty z aktu V sztuki 'Burza' Williama Szekspira, w którym naiwna Miranda zachwyca się ludźmi przybyłymi na wyspę słowami: 'O wonder! How many goodly creatures are there here! (...) O brave new world, That has such people in't!'.",
+         "Powieść pierwotnie zaczęła powstawać jako parodia hurraoptymistycznych, utopijnych powieści H.G. Wellsa (takich jak 'Ludzie jak bogowie'), jednak w trakcie procesu twórczego ewoluowała w ponurą, autonomiczną dystopię.",
+         "W 1958 roku, 26 lat po premierze powieści, Aldous Huxley opublikował zbiór esejów zatytułowany 'Nowy wspaniały świat poprawiony', w którym ze zgrozą przyznał, że wiele z jego pesymistycznych przepowiedni dotyczących manipulacji społeczeństwem realizuje się znacznie szybciej, niż sam początkowo zakładał."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":4,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   }
 ]
