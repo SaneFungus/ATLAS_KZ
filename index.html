@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Zakazanych Książek — Panel Przeglądowy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0b0c10; color: #c5c6c7; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .accent-border { border-left: 4px solid #991b1b; }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #1f2833; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #45f3ff; border-radius: 3px; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-red-900 selection:text-white">
+
+    <!-- Header -->
+    <header class="border-b border-zinc-800 bg-zinc-950 px-6 py-5 sticky top-0 z-40 backdrop-blur-md bg-opacity-90">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 class="text-2xl md:text-3xl font-serif font-bold text-zinc-100 tracking-wide flex items-center gap-3">
+                    <span class="text-red-700">|</span> ATLAS ZAKAZANYCH KSIĄŻEK
+                </h1>
+                <p class="text-xs text-zinc-400 mt-1">Kompendium wiedzy o historii cenzury literatury • Interfejs bazy JSON</p>
+            </div>
+            
+            <!-- Global Controls / Status -->
+            <div class="flex items-center gap-3 bg-zinc-900 px-4 py-2 rounded-lg border border-zinc-800 text-xs text-zinc-300">
+                <span class="inline-block w-2 height w-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>Baza danych (JSON) podłączona poprawnie</span>
+                <span class="text-zinc-600">|</span>
+                <span id="book-counter" class="font-bold text-red-500">Książki: 0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="max-w-7xl mx-auto px-4 md:px-6 py-8 flex-grow w-full grid grid-cols-1 lg:grid-cols-4 gap-8">
+        
+        <!-- Sidebar Controls -->
+        <aside class="lg:col-span-1 space-y-6">
+            <div class="bg-zinc-950 p-5 rounded-xl border border-zinc-800 space-y-4 shadow-xl">
+                <h2 class="text-sm font-semibold tracking-wider text-zinc-400 uppercase">Filtry i Wyszukiwarka</h2>
+                
+                <!-- Search Input -->
+                <div class="space-y-1">
+                    <label class="text-xs text-zinc-500 font-medium">Szukaj tytułu, autora lub kraju</label>
+                    <input type="text" id="search-input" placeholder="Wpisz frazę..." 
+                           class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-sm text-zinc-200 focus:outline-none focus:border-red-700 transition">
+                </div>
+
+                <!-- Archetype Filter -->
+                <div class="space-y-2 pt-2">
+                    <label class="text-xs text-zinc-500 font-medium">Archetypy cenzury</label>
+                    <div id="archetype-filters" class="space-y-1.5 max-h-[250px] overflow-y-auto pr-1 custom-scrollbar">
+                        <button class="w-full text-left text-xs px-2.5 py-2 rounded bg-red-950 bg-opacity-30 border border-red-900 text-red-400 font-medium filter-btn" data-archetype="all">
+                            Wszystkie kategorie
+                        </button>
+                        <!-- Dynamic archetypes go here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Developer helper for copy pasting future books from LLM -->
+            <div class="bg-zinc-950 p-5 rounded-xl border border-zinc-800 space-y-3 shadow-xl">
+                <h3 class="text-xs font-semibold tracking-wider text-zinc-400 uppercase">Generator wpisów do bazy</h3>
+                <p class="text-xs text-zinc-500">Dodajesz nową kartę za pomocą LLM? Wykorzystaj ten interfejs, aby wygenerować prawidłowy blok kodu JSON do doklejenia w pliku.</p>
+                <button onclick="openGeneratorInfo()" class="w-full bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 transition text-zinc-300 rounded-lg py-2 text-xs font-medium">
+                    Pokaż strukturę JSON
+                </button>
+            </div>
+        </aside>
+
+        <!-- Book Grid Display Section -->
+        <section class="lg:col-span-3 space-y-6">
+            <!-- CORS warning fallback if opened as local file directly -->
+            <div id="cors-warning" class="hidden bg-amber-950 bg-opacity-40 border border-amber-800 text-amber-300 text-xs rounded-xl p-4 space-y-2">
+                <p class="font-bold">⚠️ Uwaga techniczna dotycząca przeglądarki (CORS):</p>
+                <p>Przeglądarki blokują asynchroniczne pobieranie zewnętrznych plików JSON, jeśli otwierasz plik HTML bezpośrednio z dysku twardego bez serwera lokalnego (protokół <code class="bg-zinc-900 px-1 py-0.5 rounded text-amber-400">file://</code>). Po wgraniu na <strong>GitHub Pages</strong> aplikacja ruszy automatycznie. Lokalnie uruchom ją np. poprzez rozszerzenie <strong>Live Server</strong> w VS Code.</p>
+            </div>
+
+            <div id="books-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Dynamic books grid items -->
+                <div class="col-span-full py-12 text-center text-zinc-500 text-sm">Wczytywanie bazy danych literatury...</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Deep Immersive Detail View Overlay Modals -->
+    <div id="detail-modal" class="fixed inset-0 bg-black bg-opacity-80 z-50 backdrop-blur-sm hidden flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-zinc-950 border border-zinc-800 w-full max-w-4xl rounded-2xl shadow-2xl overflow-hidden my-8 max-h-[90vh] flex flex-col">
+            <!-- Modal Header -->
+            <div class="p-6 border-b border-zinc-800 flex justify-between items-start bg-zinc-900">
+                <div>
+                    <span id="modal-archetype" class="text-[10px] uppercase tracking-widest bg-red-950 border border-red-900 text-red-400 px-2.5 py-0.5 rounded font-semibold">Kategoria</span>
+                    <h2 id="modal-title" class="text-3xl font-serif font-bold text-zinc-100 mt-2">Tytuł Książki</h2>
+                    <p id="modal-author" class="text-zinc-400 text-sm italic mt-1">Autor Książki</p>
+                </div>
+                <button onclick="closeModal()" class="text-zinc-400 hover:text-white bg-zinc-800 hover:bg-zinc-700 p-2 rounded-lg transition text-sm">
+                    ✕ Zamknij
+                </button>
+            </div>
+            
+            <!-- Modal Body (Scrollable) -->
+            <div id="modal-body" class="p-6 overflow-y-auto space-y-8 custom-scrollbar bg-zinc-950 text-sm leading-relaxed">
+                <!-- Content will be injected dynamic -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JSON Structure Template Helper Modal -->
+    <div id="generator-modal" class="fixed inset-0 bg-black bg-opacity-80 z-50 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-zinc-950 border border-zinc-800 w-full max-w-2xl rounded-xl p-6 space-y-4 flex flex-col max-h-[85vh]">
+            <div class="flex justify-between items-center border-b border-zinc-800 pb-3">
+                <h3 class="text-lg font-serif font-bold text-zinc-200">Wzorcowy obiekt JSON dla LLM</h3>
+                <button onclick="closeGeneratorInfo()" class="text-zinc-400 hover:text-white">✕</button>
+            </div>
+            <p class="text-xs text-zinc-400">Przekaż tę strukturę do modelu Gemini, aby kolejne książki były idealnie sformatowane i kompatybilne z tym frontendem:</p>
+            <pre class="bg-zinc-900 text-emerald-400 p-3 rounded-lg text-xs overflow-auto flex-grow custom-scrollbar font-mono">{
+  "id": 3,
+  "archetype": "Pełna nazwa archetypu",
+  "dane_bibliograficzne": {
+    "tytul": "...", "autor": "...", "rok_wydania": 2026, "kraj_pochodzenia": "...", "gatunek": "..."
+  },
+  "o_czym_jest": "Streszczenie (200-400 słów)...",
+  "dlaczego_byla_zakazywana": "...",
+  "historia_cenzury": {
+    "gdzie": "...", "kiedy": "...", "przez_kogo": "...", "jak_dlugo": "..."
+  },
+  "co_najbardziej_przestraszylo_cenzorow": "...",
+  "wplyw_na_kulture": "...",
+  "przeczytaj_takze": ["Tytuł 1", "Tytuł 2"],
+  "ciekawostki": ["Ciekawostka 1", "Ciekawostka 2"],
+  "ocena_wplywu": { "literacki": 5, "polityczny": 5, "filozoficzny": 5, "spoleczny": 5, "aktualnosc": 5 }
+}</pre>
+        </div>
+    </div>
+
+    <!-- Footer Component -->
+    <footer class="border-t border-zinc-900 bg-zinc-950 py-4 px-6 text-center text-xs text-zinc-500">
+        Atlas Zakazanych Książek — Zbudowano przy użyciu czystego HTML, JS oraz TailwindCSS. Gotowy pod archiwizację i wdrażanie na GitHub Pages.
+    </footer>
+
+    <!-- Frontend Core Application JavaScript Logic -->
+    <script>
+        let booksDatabase = [];
+        let activeArchetype = 'all';
+        let searchQuery = '';
+
+        // Checking if local protocol causes CORS issues to dynamically provide support notes
+        if (window.location.protocol === 'file:') {
+            document.getElementById('cors-warning').classList.remove('hidden');
+        }
+
+        // Fetch standard database on document load
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch('books.json')
+                .then(response => {
+                    if (!response.ok) throw new Error("Błąd sieci podczas pobierania pliku JSON");
+                    return response.json();
+                })
+                .then(data => {
+                    booksDatabase = data;
+                    initializeApplication();
+                })
+                .catch(error => {
+                    console.error("CORS lub błąd pliku. Wczytuję wbudowaną bezpieczną kopię zapasową...", error);
+                    // Inline safety backup to keep the application 100% operational out of the box locally!
+                    booksDatabase = [
+                        {
+                            "id": 1,
+                            "archetype": "Władza boi się prawdy – dystopie i literatura polityczna",
+                            "dane_bibliograficzne": {"tytul": "Rok 1984", "autor": "George Orwell", "rok_wydania": 1949, "kraj_pochodzenia": "Wielka Brytania", "gatunek": "Dystopia polityczna"},
+                            "o_czym_jest": "Akcja rozgrywa się w państwie Oceania, rządzonym przez totalitarną Partię i postać zwaną Wielkim Bratem. Główny bohater, Winston Smith, pracuje przy fałszowaniu historii. Stopniowo zaczyna kwestionować system, próbując zachować własne myśli i godność.",
+                            "dlaczego_byla_zakazywana": "Zarzucano jej krytykę komunizmu, totalitaryzmu, treści obyczajowe i rzekomy wysoce wywrotowy i antypaństwowy pesymizm.",
+                            "historia_cenzury": {"gdzie": "ZSRR, kraje bloku wschodniego, Chiny, USA (szkoły).", "kiedy": "Od 1949 r. do dziś.", "przez_kogo": "Aparaty cenzury państwowej, konserwatywne komitety oświatowe.", "jak_dlugo": "Całkowicie zakazana w bloku radzieckim do końca zimnej wojny."},
+                            "co_najbardziej_przestraszylo_cenzorow": "Idea, że władza może arbitralnie zmieniać definicję prawdy historycznej oraz kontrolować ludzkie myśli za pomocą nowomowy i dwójmyślenia.",
+                            "wplyw_na_kulture": "Wprowadziła do języka globalnego pojęcia takie jak 'Wielki Brat' czy termin 'orwellowski'. Pozostaje najważniejszą przestrogą przed inwigilacją.",
+                            "przeczytaj_takze": ["My", "Nowy wspaniały świat", "451° Fahrenheita"],
+                            "ciekawostki": ["Orwell pisał rękopis ciężko chory na gruźlicę.", "Tytuł powstał poprzez zamianę końcówki roku powstawania dzieła: 1948."],
+                            "ocena_wplywu": {"literacki": 5, "polityczny": 5, "filozoficzny": 5, "spoleczny": 5, "aktualnosc": 5}
+                        },
+                        {
+                            "id": 2,
+                            "archetype": "Władza boi się prawdy – dystopie i literatura polityczna",
+                            "dane_bibliograficzne": {"tytul": "451° Fahrenheita", "autor": "Ray Bradbury", "rok_wydania": 1953, "kraj_pochodzenia": "Stany Zjednoczone", "gatunek": "Dystopia, fantastyka naukowa"},
+                            "o_czym_jest": "W futurystycznym społeczeństwie posiadanie książek jest nielegalne. Zadaniem 'strażaków' jest niszczenie literatury poprzez celowe podpalenia. Guy Montag, jeden ze strażaków, pod wpływem impulsu staje w obronie zakazanego dziedzictwa słowa.",
+                            "dlaczego_byla_zakazywana": "Zarzucano jej wulgaryzmy, rzekomą obrazę uczuć religijnych (scena palenia Biblii) oraz propagowanie nieposłuszeństwa wobec państwa.",
+                            "historia_cenzury": {"gdzie": "Stany Zjednoczone (szkoły, biblioteki), RPA.", "kiedy": "Od lat 60. XX wieku regularnie wycofywana z obiegu.", "przez_kogo": "Rady szkolne, cenzorzy państwowi systemu apartheidu.", "jak_dlugo": "Zazwyczaj lokalne bany, ale istniały też zniekształcone, ocenzurowane edycje szkolne."},
+                            "co_najbardziej_przestraszylo_cenzorow": "Bezkompromisowa krytyka konformizmu oraz wizja ludzkości, która dobrowolnie odrzuca literaturę na rzecz prymitywnej rozrywki.",
+                            "wplyw_na_kulture": "Służy jako ostateczny popkulturowy symbol walki z niszczeniem wolnego słowa. Temperatura 451°F weszła na stałe do świadomości kulturowej.",
+                            "przeczytaj_takze": ["Rok 1984", "Nowy wspaniały świat"],
+                            "ciekawostki": ["Bradbury pisał książkę w piwnicy biblioteki na płatnej maszynie.", "Większość banów motywowana była pojedynczymi przekleństwami."],
+                            "ocena_wplywu": {"literacki": 5, "polityczny": 4, "filozoficzny": 4, "spoleczny": 5, "aktualnosc": 5}
+                        }
+                    ];
+                    initializeApplication();
+                });
+        });
+
+        function initializeApplication() {
+            document.getElementById('book-counter').innerText = `Książki: ${booksDatabase.length}`;
+            buildArchetypeFilters();
+            renderBooks();
+
+            // Set up search listener
+            document.getElementById('search-input').addEventListener('input', (e) => {
+                searchQuery = e.target.value.toLowerCase();
+                renderBooks();
+            });
+        }
+
+        function buildArchetypeFilters() {
+            const container = document.getElementById('archetype-filters');
+            // Extract distinct categories
+            const archetypes = [...new Set(booksDatabase.map(b => b.archetype))];
+            
+            archetypes.forEach(arch => {
+                const btn = document.createElement('button');
+                btn.className = "w-full text-left text-xs px-2.5 py-1.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition filter-btn";
+                btn.innerText = arch;
+                btn.setAttribute('data-archetype', arch);
+                btn.onclick = () => selectCategory(arch);
+                container.appendChild(btn);
+            });
+        }
+
+        function selectCategory(archetype) {
+            activeArchetype = archetype;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if(btn.getAttribute('data-archetype') === archetype) {
+                    btn.className = "w-full text-left text-xs px-2.5 py-2 rounded bg-red-950 bg-opacity-30 border border-red-900 text-red-400 font-medium filter-btn";
+                } else {
+                    btn.className = "w-full text-left text-xs px-2.5 py-1.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition filter-btn";
+                }
+            });
+            renderBooks();
+        }
+
+        function renderBooks() {
+            const grid = document.getElementById('books-grid');
+            grid.innerHTML = '';
+
+            const filtered = booksDatabase.filter(book => {
+                const matchesCategory = (activeArchetype === 'all' || book.archetype === activeArchetype);
+                const matchesSearch = book.dane_bibliograficzne.tytul.toLowerCase().includes(searchQuery) ||
+                                      book.dane_bibliograficzne.autor.toLowerCase().includes(searchQuery) ||
+                                      book.dane_bibliograficzne.kraj_pochodzenia.toLowerCase().includes(searchQuery);
+                return matchesCategory && matchesSearch;
+            });
+
+            if(filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-full py-12 text-center text-zinc-600 text-sm">Brak książek spełniających wybrane kryteria wyszukiwania.</div>`;
+                return;
+            }
+
+            filtered.forEach(book => {
+                const card = document.createElement('div');
+                card.className = "bg-zinc-950 border border-zinc-800 rounded-xl p-5 hover:border-zinc-700 transition duration-300 flex flex-col justify-between shadow-lg hover:shadow-2xl cursor-pointer group";
+                card.onclick = () => openDetails(book.id);
+                
+                card.innerHTML = `
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start gap-2">
+                            <span class="text-[9px] uppercase tracking-wider text-zinc-500 font-mono">${book.dane_bibliograficzne.gatunek}</span>
+                            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400">${book.dane_bibliograficzne.rok_wydania}</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-serif font-bold text-zinc-200 group-hover:text-red-500 transition-colors">${book.dane_bibliograficzne.tytul}</h3>
+                            <p class="text-xs text-zinc-400 italic">${book.dane_bibliograficzne.autor} — <span class="text-zinc-500">${book.dane_bibliograficzne.kraj_pochodzenia}</span></p>
+                        </div>
+                        <p class="text-xs text-zinc-400 line-clamp-3 leading-relaxed pt-1">${book.o_czym_jest}</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-zinc-900 flex justify-between items-center text-[11px]">
+                        <span class="text-red-500 text-opacity-80 font-medium font-serif italic truncate max-w-[180px]">${book.archetype.split(' — ')[0]}</span>
+                        <span class="text-zinc-500 group-hover:translate-x-1 transition-transform">Szczegóły karty →</span>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function openDetails(id) {
+            const book = booksDatabase.find(b => b.id === id);
+            if (!book) return;
+
+            document.getElementById('modal-title').innerText = book.dane_bibliograficzne.tytul;
+            document.getElementById('modal-author').innerText = `${book.dane_bibliograficzne.autor} (${book.dane_bibliograficzne.rok_wydania}) | ${book.dane_bibliograficzne.kraj_pochodzenia} | ${book.dane_bibliograficzne.gatunek}`;
+            document.getElementById('modal-archetype').innerText = book.archetype;
+
+            // Generate metrics HTML view dynamically
+            let metricsHtml = '<div class="grid grid-cols-2 md:grid-cols-5 gap-3 pt-2">';
+            for (const [key, val] of Object.entries(book.ocena_wplywu)) {
+                const pct = val * 20;
+                metricsHtml += `
+                    <div class="bg-zinc-900 border border-zinc-800 p-2.5 rounded-lg text-center">
+                        <span class="text-[10px] uppercase tracking-wider text-zinc-500 block mb-1 font-medium">${key}</span>
+                        <div class="text-lg font-serif font-bold text-zinc-200 mb-1">${val}/5</div>
+                        <div class="w-full bg-zinc-800 h-1 rounded-full overflow-hidden">
+                            <div class="bg-red-700 h-full" style="width: ${pct}%"></div>
+                        </div>
+                    </div>
+                `;
+            }
+            metricsHtml += '</div>';
+
+            // Generate trivia list items
+            let triviaHtml = '<ul class="list-disc pl-5 space-y-1 text-zinc-300">';
+            book.ciekawostki.forEach(t => { triviaHtml += `<li>${t}</li>`; });
+            triviaHtml += '</ul>';
+
+            // Generate recommendations badges
+            let recsHtml = '<div class="flex flex-wrap gap-2">';
+            book.przeczytaj_takze.forEach(r => { 
+                recsHtml += `<span class="bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1 rounded text-xs">${r}</span>`; 
+            });
+            recsHtml += '</div>';
+
+            const bodyContainer = document.getElementById('modal-body');
+            bodyContainer.innerHTML = `
+                <!-- Grid: Description & Banned Reasons -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400 border-b border-zinc-800 pb-1">1. O czym jest?</h4>
+                        <p class="text-zinc-300 text-justify">${book.o_czym_jest}</p>
+                    </div>
+                    <div class="space-y-2">
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400 border-b border-zinc-800 pb-1">2. Dlaczego była zakazywana?</h4>
+                        <p class="text-zinc-300 text-justify">${book.dlaczego_byla_zakazywana}</p>
+                    </div>
+                </div>
+
+                <!-- Censorship History Section -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl space-y-3">
+                    <h4 class="text-xs uppercase font-bold tracking-wider text-red-500">3. Historia Cenzury</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs">
+                        <div><span class="text-zinc-500 block uppercase">Gdzie:</span> <span class="text-zinc-200 font-medium">${book.historia_cenzury.gdzie}</span></div>
+                        <div><span class="text-zinc-500 block uppercase">Kiedy:</span> <span class="text-zinc-200 font-medium">${book.historia_cenzury.kiedy}</span></div>
+                        <div><span class="text-zinc-500 block uppercase">Przez kogo:</span> <span class="text-zinc-200 font-medium">${book.historia_cenzury.przez_kogo}</span></div>
+                        <div><span class="text-zinc-500 block uppercase">Jak długo:</span> <span class="text-zinc-200 font-medium">${book.historia_cenzury.jak_dlugo}</span></div>
+                    </div>
+                </div>
+
+                <!-- Censor Fears & Culture Impact Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-2 accent-border pl-3">
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">4. Co najbardziej przestraszyło cenzorów?</h4>
+                        <p class="text-zinc-300">${book.co_najbardziej_przestraszylo_cenzorow}</p>
+                    </div>
+                    <div class="space-y-2 accent-border pl-3">
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">5. Jak książka wpłynęła na kulturę?</h4>
+                        <p class="text-zinc-300">${book.wplyw_na_kulture}</p>
+                    </div>
+                </div>
+
+                <!-- Metric Rankings Visualized -->
+                <div class="space-y-2">
+                    <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400 border-b border-zinc-800 pb-1">6. Ocena Wpływu Dzieła</h4>
+                    ${metricsHtml}
+                </div>
+
+                <!-- Trivia and recommendations footer block -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+                    <div class="md:col-span-2 space-y-2">
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">7. Ciekawostki historyczne</h4>
+                        ${triviaHtml}
+                    </div>
+                    <div class="space-y-2">
+                        <h4 class="text-xs uppercase font-bold tracking-wider text-zinc-400">8. Rekomendowane lektury</h4>
+                        ${recsHtml}
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('detail-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('detail-modal').classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        function openGeneratorInfo() {
+            document.getElementById('generator-modal').classList.remove('hidden');
+        }
+
+        function closeGeneratorInfo() {
+            document.getElementById('generator-modal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
