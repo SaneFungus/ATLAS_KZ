@@ -116,41 +116,41 @@
       }
    },
    {
-  "id": 4,
-  "archetype": "3. Władza boi się Boga – religia i herezja",
-  "dane_bibliograficzne": {
-    "tytul": "Szatańskie wersety",
-    "autor": "Salman Rushdie",
-    "rok_wydania": 1988,
-    "kraj_pochodzenia": "Wielka Brytania",
-    "gatunek": "Realizm magiczny"
-  },
-  "o_czym_jest": "Powieść opowiada o dwóch indyjskich muzułmanach, Gibreelu Farishcie i Saladinie Chamchy, którzy cudem przeżywają katastrofę porwanego samolotu nad kanałem La Manche. Opadając na ziemię, przechodzą transformacje – jeden staje się archaniołem Gabrielem, drugi demonem. Współczesna fabuła przeplata się z serią onirycznych, surrealistycznych wizji. Najbardziej kontrowersyjna z nich dotyczy alternatywnej historii początków islamu i postaci proroka (ukrytego pod imieniem Mahound), w tym epizodu tytułowych szatańskich wersetów – objawienia rzekomo podsuniętego przez diabła, a pomyłkowo wziętego za słowo Boże.",
-  "dlaczego_byla_zakazywana": "Książka wywołała powszechne oburzenie w świecie islamskim z powodu rzekomego bluźnierstwa. Zarzucano jej obrazoburcze i prześmiewcze przedstawienie proroka Mahometa, jego żon (ukazanych w snach bohatera jako prostytutki) oraz towarzyszy. Dla ortodoksyjnych teologów muzułmańskich literacka fikcja została zinterpretowana jako bezpośredni, dosłowny atak na autentyczność Koranu i same fundamenty wiary, ze szczególnym naciskiem na sugestię, jakoby pismo święte mogło zostać skażone diabelską ingerencją.",
-  "historia_cenzury": {
-    "gdzie": "Kraje muzułmańskie (m.in. Indie, Pakistan, Arabia Saudyjska, Iran, Egipt, Somalia, Bangladesz) oraz księgarnie w krajach zachodnich wskutek gróźb.",
-    "kiedy": "Od 1988 roku do dziś.",
-    "przez_kogo": "Rządy państw (pierwsze zakazały Indie), a w wymiarze absolutnym ajatollah Ruhollah Chomejni (poprzez wydanie fatwy).",
-    "jak_dlugo": "Cenzura, groźby i wyroki religijne trwają nieprzerwanie od końca lat 80. do dzisiaj."
-  },
-  "co_najbardziej_przestraszylo_cenzorow": "Rozmycie granic między sacrum a profanum. Prawdziwym, głębokim lękiem cenzorów religijnych była swoboda artystycznej interpretacji świętych tekstów oraz wywrotowa teza sugerująca, że niepodważalne prawdy objawione mogą podlegać ludzkim wątpliwościom lub zniekształceniom.",
-  "wplyw_na_kulture": "Książka stała się globalnym, tragicznym symbolem zderzenia fundamentalizmu religijnego z prawem do wolności słowa. Zapoczątkowała jedną z największych współczesnych debat o granicach sztuki i bezpieczeństwie artystów w zglobalizowanym świecie.",
-  "przeczytaj_takze": [
-    "Ostatnie kuszenie Chrystusa",
-    "Dzieci północy",
-    "Imię róży"
-  ],
-  "ciekawostki": [
-    "W lutym 1989 roku ajatollah Chomejni wydał fatwę wzywającą wszystkich muzułmanów do zabicia Rushdiego i jego wydawców, zmuszając autora do wieloletniego życia w ukryciu.",
-    "Hitoshi Igarashi, japoński tłumacz powieści, został zasztyletowany w 1991 roku; ataki zbrojne dotknęły również włoskiego tłumacza oraz norweskiego wydawcę.",
-    "W 2022 roku, ponad trzy dekady po publikacji książki, Salman Rushdie został zaatakowany nożem podczas wykładu w stanie Nowy Jork, w wyniku czego stracił oko i władzę w jednej ręce."
-  ],
-  "ocena_wplywu": {
-    "literacki": 4,
-    "polityczny": 5,
-    "filozoficzny": 4,
-    "spoleczny": 5,
-    "aktualnosc": 5
-  }
-}
+      "id":4,
+      "archetype":"3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne":{
+         "tytul":"Szatańskie wersety",
+         "autor":"Salman Rushdie",
+         "rok_wydania":1988,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Realizm magiczny"
+      },
+      "o_czym_jest":"Powieść opowiada o dwóch indyjskich muzułmanach, Gibreelu Farishcie i Saladinie Chamchy, którzy cudem przeżywają katastrofę porwanego samolotu nad kanałem La Manche. Opadając na ziemię, przechodzą transformacje – jeden staje się archaniołem Gabrielem, drugi demonem. Współczesna fabuła przeplata się z serią onirycznych, surrealistycznych wizji. Najbardziej kontrowersyjna z nich dotyczy alternatywnej historii początków islamu i postaci proroka (ukrytego pod imieniem Mahound), w tym epizodu tytułowych szatańskich wersetów – objawienia rzekomo podsuniętego przez diabła, a pomyłkowo wziętego za słowo Boże.",
+      "dlaczego_byla_zakazywana":"Książka wywołała powszechne oburzenie w świecie islamskim z powodu rzekomego bluźnierstwa. Zarzucano jej obrazoburcze i prześmiewcze przedstawienie proroka Mahometa, jego żon (ukazanych w snach bohatera jako prostytutki) oraz towarzyszy. Dla ortodoksyjnych teologów muzułmańskich literacka fikcja została zinterpretowana jako bezpośredni, dosłowny atak na autentyczność Koranu i same fundamenty wiary, ze szczególnym naciskiem na sugestię, jakoby pismo święte mogło zostać skażone diabelską ingerencją.",
+      "historia_cenzury":{
+         "gdzie":"Kraje muzułmańskie (m.in. Indie, Pakistan, Arabia Saudyjska, Iran, Egipt, Somalia, Bangladesz) oraz księgarnie w krajach zachodnich wskutek gróźb.",
+         "kiedy":"Od 1988 roku do dziś.",
+         "przez_kogo":"Rządy państw (pierwsze zakazały Indie), a w wymiarze absolutnym ajatollah Ruhollah Chomejni (poprzez wydanie fatwy).",
+         "jak_dlugo":"Cenzura, groźby i wyroki religijne trwają nieprzerwanie od końca lat 80. do dzisiaj."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Rozmycie granic między sacrum a profanum. Prawdziwym, głębokim lękiem cenzorów religijnych była swoboda artystycznej interpretacji świętych tekstów oraz wywrotowa teza sugerująca, że niepodważalne prawdy objawione mogą podlegać ludzkim wątpliwościom lub zniekształceniom.",
+      "wplyw_na_kulture":"Książka stała się globalnym, tragicznym symbolem zderzenia fundamentalizmu religijnego z prawem do wolności słowa. Zapoczątkowała jedną z największych współczesnych debat o granicach sztuki i bezpieczeństwie artystów w zglobalizowanym świecie.",
+      "przeczytaj_takze":[
+         "Ostatnie kuszenie Chrystusa",
+         "Dzieci północy",
+         "Imię róży"
+      ],
+      "ciekawostki":[
+         "W lutym 1989 roku ajatollah Chomejni wydał fatwę wzywającą wszystkich muzułmanów do zabicia Rushdiego i jego wydawców, zmuszając autora do wieloletniego życia w ukryciu.",
+         "Hitoshi Igarashi, japoński tłumacz powieści, został zasztyletowany w 1991 roku; ataki zbrojne dotknęły również włoskiego tłumacza oraz norweskiego wydawcę.",
+         "W 2022 roku, ponad trzy dekady po publikacji książki, Salman Rushdie został zaatakowany nożem podczas wykładu w stanie Nowy Jork, w wyniku czego stracił oko i władzę w jednej ręce."
+      ],
+      "ocena_wplywu":{
+         "literacki":4,
+         "polityczny":5,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   }
 ]
