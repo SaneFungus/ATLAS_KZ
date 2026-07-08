@@ -87,7 +87,7 @@
          "kraj_pochodzenia":"Wielka Brytania",
          "gatunek":"Antyutopia / Dystopia"
       },
-      "o_czym_jest":"Powieść Aldousa Huxleya przedstawia wizję społeczeństwa przyszłości (Republiki Świata), w którym ostatecznie wyeliminowano wojny, ubóstwo i choroby, ale za cenę całkowitej utraty wolności osobistej, wyższych uczuć, sztuki i religii. Ludzie są warunkowani genetycznie oraz psychologicznie (poprzez hipnopedię) już od momentu powstania w probówkach, a następnie przypisywani do konkretnych kast (od inteligentnych Alf po zredukowanych intelektualnie Epsilonów), co rzekomo gwarantuje absolutną stabilność społeczną. Społeczeństwo to opiera się na powszechnym konsumpcjonizmie, rozwiązłości seksualnej traktowanej jako obowiązek obywatelski oraz na zażywaniu narkotyku o nazwie 'soma', który skutecznie tłumi wszelkie negatywne emocje i bunt. Główny konflikt wybucha, gdy do tego pozornie idealnego, mechanicznego świata trafia John 'Dzikus' – człowiek wychowany w rezerwacie, znający na pamięć dzieła Szekspira i wyznający tradycyjne wartości moralne. Jego zderzenie z utylitarną, pozbawioną głębi cywilizacją demaskuje dehumanizujący charakter utopii, w której powierzchowny komfort fizyczny całkowicie zastąpił wolną wolę, indywidualizm i poszukiwanie prawdy.",
+      "o_czym_jest":"Powieść Aldousa Huxleya przedstawia wizję społeczeństwa przyszłości (Republiki Świata), w którym ostatecznie wyeliminowano wojny, ubóstwo i choroby, ale za cenę całkowitej utraty wolności osobistej, wyższych uczuciu, sztuki i religii. Ludzie są warunkowani genetycznie oraz psychologicznie (poprzez hipnopedię) już od momentu powstania w probówkach, a następnie przypisywani do konkretnych kast (od inteligentnych Alf po zredukowanych intelektualnie Epsilonów), co rzekomo gwarantuje absolutną stabilność społeczną. Społeczeństwo to opiera się na powszechnym konsumpcjonizmie, rozwiązłości seksualnej traktowanej jako obowiązek obywatelski oraz na zażywaniu narkotyku o nazwie 'soma', który skutecznie tłumi wszelkie negatywne emocje i bunt. Główny konflikt wybucha, gdy do tego pozornie idealnego, mechanicznego świata trafia John 'Dzikus' – człowiek wychowany w rezerwacie, znający na pamięć dzieła Szekspira i wyznający tradycyjne wartości moralne. Jego zderzenie z utylitarną, pozbawioną głębi cywilizacją demaskuje dehumanizujący charakter utopii, w której powierzchowny komfort fizyczny całkowicie zastąpił wolną wolę, indywidualizm i poszukiwanie prawdy.",
       "dlaczego_byla_zakazywana":"Oficjalnym powodem cenzury w wielu krajach była 'rozwiązłość' oraz rzekoma demoralizacja młodzieży. Władze oświatowe w USA i Irlandii zarzucały książce promowanie promiskuityzmu, pogardę dla tradycyjnego modelu rodziny (słowa 'matka' i 'ojciec' traktowane są w powieści jako wulgaryzmy) oraz negatywny i lekceważący stosunek do religii chrześcijańskiej. Prawdziwym, głębszym lękiem cenzorów była jednak niezwykle ostra krytyka mechanizmów kontroli społecznej i bezmyślnego konformizmu. Władze obawiały się, że powieść zbyt trafnie obnaża metody propagandowe, inżynierię społeczną oraz manipulowanie masami poprzez tanią rozrywkę, co mogło skłaniać obywateli (szczególnie młodzież) do kwestionowania narzucanego porządku społecznego i gospodarczego.",
       "historia_cenzury":{
          "gdzie":"Irlandia, Australia, Indie, liczne stany i okręgi szkolne w Stanach Zjednoczonych (m.in. Kalifornia, Teksas, Maryland, Missouri).",
@@ -301,6 +301,120 @@
         "literacki": 5,
         "polityczny": 3,
         "filozoficzny": 4,
+        "spoleczny": 5,
+        "aktualnosc": 4
+      }
+    },
+    {
+      "id": 9,
+      "archetype": "3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne": {
+        "tytul": "O obrotach sfer niebieskich",
+        "autor": "Mikołaj Kopernik",
+        "rok_wydania": 1543,
+        "kraj_pochodzenia": "Polska",
+        "gatunek": "Traktat naukowy"
+      },
+      "o_czym_jest": "Kluczowe dzieło naukowe prezentujące heliocentryczną teorię budowy Układu Słonecznego, która kategorycznie odrzuciła obowiązujący przez ponad tysiąc lat geocentryczny model Ptolemeusza. Kopernik dowodzi w nim za pomocą szczegółowych obliczeń matematycznych i geometrycznych, że to Ziemia (wraz z innymi planetami) krąży wokół nieruchomego Słońca, wykonując jednocześnie obrót wokół własnej osi. Teoria ta całkowicie zrewolucjonizowała fizykę oraz astronomię, gruntownie przesuwając pozycję człowieka i Ziemi z rzekomego, uprzywilejowanego centrum stworzenia w obszar kosmicznej powtarzalności.",
+      "dlaczego_byla_zakazywana": "Głównym powodem cenzury była rzekoma sprzeczność teorii heliocentrycznej z dosłowną interpretacją fragmentów Pisma Świętego (np. Księgi Jozuego, w której mowa o 'zatrzymaniu Słońca', czy psalmów mówiących o 'niewzruszonych fundamentach Ziemi'). Teologowie katoliccy i protestanccy uznali, że ruchomość Ziemi godzi w autorytet Biblii, a odebranie jej statusu centrum wszechświata degraduje człowieka jako koronę boskiego stworzenia, prowadząc do heretyckiego relatywizmu.",
+      "historia_cenzury": {
+        "gdzie": "Kraje katolickie, Państwo Kościelne oraz protestanckie ośrodki uniwersyteckie.",
+        "kiedy": "Lata 1616–1835",
+        "przez_kogo": "Święte Oficjum (Kuria Rzymska) z polecenia papieża Pawła V, kardynał Robert Bellarmin.",
+        "jak_dlugo": "Dzieło zostało oficjalnie wpisane na Index Librorum Prohibitorum w 1616 roku po procesie Galileusza pod klauzulą 'do czasu poprawienia'. Choć skorygowane fragmenty dopuszczono w małym nakładzie, pełna wersja pozostawała na Indeksie przez ponad 200 lat. Została z niego ostatecznie usunięta dopiero w 1835 roku przez papieża Grzegorza XVI."
+      },
+      "co_najbardziej_przestraszylo_cenzorow": "Przerażenie cenzorów wywołała obawa przed pęknięciem absolutnego dogmatu o nieomylności Kościoła w sprawach interpretacji natury fizycznej i duchowej świata. Heliocentryzm udowadniał, że tradycyjna egzegeza biblijna może się radykalnie mylić, co otwierało niebezpieczne drzwi dla samodzielnego myślenia naukowego, wolnego od nadzoru kościelnego magistratu.",
+      "wplyw_na_kulture": "Dzieło zapoczątkowało tzw. 'rewolucję kopernikańską', stając się kamieniem milowym i fundamentem nowożytnej rewolucji naukowej. Zmieniło cały filozoficzny paradygmat postrzegania ludzkiej egzystencji, dając impuls rozwojowi dzieł Galileusza, Keplera i Newtona. Wprowadziło do języka pojęcie 'przewrotu kopernikańskiego' na określenie fundamentalnej zmiany poglądów.",
+      "przeczytaj_takze": [
+         "Dialog o dwóch najważniejszych układach świata",
+         "O nieskończoności, wszechświecie i światach",
+         "Kosmograficzny list gończy"
+      ],
+      "ciekawostki": [
+         "Kopernik otrzymał pierwszy wydrukowany egzemplarz dzieła w dniu swojej śmierci (24 maja 1543 roku), co uchroniło go przed bezpośrednimi prześladowaniami.",
+         "Odpowiedzialny za druk teolog ewangelicki Andreas Osiander, obawiając się skandalu, samowolnie i anonimowo dodał do książki przedmowę, w której sugerował, że heliocentryzm to jedynie ułatwiająca obliczenia hipoteza matematyczna, a nie rzeczywisty opis świata.",
+         "Choć Kościół Katolicki sformalizował zakaz dopiero w 1616 roku, już wcześniej Marcin Luter otwarcie skrytykował Kopernika, nazywając go 'nowym astrologiem, który chce dowieść, że to Ziemia się kręci, a nie niebo'."
+      ],
+      "ocena_wplywu": {
+        "literacki": 3,
+        "polityczny": 4,
+        "filozoficzny": 5,
+        "spoleczny": 5,
+        "aktualnosc": 4
+      }
+    },
+    {
+      "id": 10,
+      "archetype": "3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne": {
+        "tytul": "Ostatnie kuszenie Chrystusa",
+        "autor": "Nikos Kazantzakis",
+        "rok_wydania": 1955,
+        "kraj_pochodzenia": "Grecja",
+        "gatunek": "Powieść biograficzno-filozoficzna"
+      },
+      "o_czym_jest": "Powieść przedstawia alternatywną, na wskroś psychologiczną i egzystencjalną wizję życia Jezusa z Nazaretu. Autor ukazuje Go jako postać rozdartą wewnętrznie pomiędzy swoją boską misją zbawienia a czysto ludzkimi pragnieniami i ułomnościami – strachem przed bólem, pragnieniem miłości cielesnej, założenia rodziny i spokojnego życia. Kulminacyjnym punktem powieści jest moment na krzyżu, gdzie szatan pod postacią młodego anioła stróża zsyła na Jezusa wizję kuszącą: wizję, w której rezygnuje on z męczeńskiej śmierci, żeni się z Marią Magdaleną (a po jej śmierci z Martą i Marią) i dożywa starości w gronie dzieci. Jezus ostatecznie odrzuca tę pokusę i budzi się z wizji na krzyżu, by z radością dopełnić ofiary.",
+      "dlaczego_byla_zakazywana": "Książkę uznano za skrajnie bluźnierczą ze względu na radykalne odarcie Jezusa z tradycyjnej, nieskalanej boskiej aury i ukazanie Go jako człowieka walczącego z pożądaniem, lękiem oraz zwątpieniem. Konserwatywni hierarchowie religijni potępili m.in. sceny, w których Jezus wykazuje słabość seksualną, miewa erotyczne sny, a także fakt, że autor poddał pod wątpliwość absolutną czystość i niezłomność Chrystusa w obliczu ziemskich uciech.",
+      "historia_cenzury": {
+        "gdzie": "Grecja, Watykan, kraje rzymskokatolickie, biblioteki i kina w USA.",
+        "kiedy": "Od 1954 roku do końca XX wieku.",
+        "przez_kogo": "Święty Synod Kościoła Prawosławnego Grecji, papież Pius XII, lokalne komitety cenzury obyczajowej.",
+        "jak_dlugo": "Książka została potępiona przez greckich hierarchów w 1954 roku (jeszcze przed pełnym wydaniem) i wpisana przez Watykan na Index Librorum Prohibitorum. W Grecji zakazy dystrybucji i nagonka na autora trwały do jego śmierci w 1957 roku, a potyczki wokół książki i jej adaptacji powracały falami w latach 80."
+      },
+      "co_najbardziej_przestraszylo_cenzorow": "Przerażenie cenzorów wywołała próba głębokiej humanizacji bóstwa. Pokazanie, że Chrystus mógł autentycznie odczuwać ludzkie pokusy i zmagać się z kryzysem tożsamości, naruszało monolit sztywnego dogmatu teologicznego, według którego postać ta była całkowicie wolna od ułomności ludzkiej psychiki i fizjologii.",
+      "wplyw_na_kulture": "Dzieło Kazantzakisa to jedno z najważniejszych dokonań literatury egzystencjalnej XX wieku, redefiniujące podejście do wiary jako ciągłej walki ducha z ciałem. W 1988 roku Martin Scorsese nakręcił na jej podstawie głośną adaptację filmową pod tym samym tytułem, która wywołała olbrzymie demonstracje chrześcijan na całym świecie (w tym tragiczny pożar kina Saint-Michel w Paryżu wywołany przez fundamentalistów).",
+      "przeczytaj_takze": [
+        "Grek Zorba",
+        "Ewangelia według Jezusa Chrystusa",
+        "Szatańskie wersety"
+      ],
+      "ciekawostki": [
+        "Po opublikowaniu powieści Święty Synod w Atenach domagał się ekskomuniki autora, na co Kazantzakis odpowiedział słynnym cytatem z chrześcijańskiego pisarza Tertuliana: 'Ad tuum, Domine, tribunal appello' (Do Twojego trybunału, o Panie, się odwołuję).",
+        "Gdy Kazantzakis zmarł w Niemczech, greccy duchowni prawosławni odmówili pochówku na cmentarzu w Atenach. Ostatecznie pochowano go w Heraklionie na Krecie bez udziału oficjalnych władz kościelnych.",
+        "Na jego surowym, kamiennym grobie wyryto jego osobiste motto: 'Niczego się nie spodziewam. Niczego się nie lękam. Jestem wolny.'"
+      ],
+      "ocena_wplywu": {
+        "literacki": 5,
+        "polityczny": 3,
+        "filozoficzny": 5,
+        "spoleczny": 4,
+        "aktualnosc": 4
+      }
+    },
+    {
+      "id": 11,
+      "archetype": "3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne": {
+        "tytul": "Kandyd, czyli optymizm",
+        "autor": "Voltaire (Wolter)",
+        "rok_wydania": 1759,
+        "kraj_pochodzenia": "Francja",
+        "gatunek": "Powiastka filozoficzna"
+      },
+      "o_czym_jest": "Krótka, niezwykle dynamiczna opowieść o losach naiwnego młodzieńca Kandyda, ucznia filozofa Panglossa, który uczy go leibnizowskiej filozofii optymizmu, głoszącej, że 'wszystko dzieje się najlepiej na tym najlepszym z możliwych światów'. Wygnany ze swojego rajskiego zamku w Westfalii, Kandyd przemierza świat i na własne oczy doświadcza niewyobrażalnych nieszczęść: wojen, rzezi, gwałtów, trzęsienia ziemi w Lizbonie, nędzy oraz okrucieństw inkwizycji. Seria tych traumatycznych zdarzeń brutalnie demaskuje fałsz teorii o boskiej opatrzności i harmonii, doprowadzając bohatera do słynnej konkluzji, że jedynym sensem ludzkiego życia jest porzucenie pustych spekulacji metafizycznych na rzecz pragmatycznego działania, ujętego w metaforze: 'trzeba uprawiać nasz ogródek'.",
+      "dlaczego_byla_zakazywana": "Wolter dokonał bezlitosnego i jadowitego ataku na autorytet religii, Kościoła i duchowieństwa. Przedstawił inkwizytorów i mnichów jako chciwych, bezwzględnych hipokrytów, sadystów oraz rozpustników pławiących się w luksusie kosztem wyzysku prostych ludzi. Wyśmianie dogmatów teodycei (usprawiedliwienia Boga za zło na świecie) oraz samej idei opatrzności sprawiło, że władze religijne i państwowe uznały dzieło za bezpośredni zamach na chrześcijański ład moralny i porządek publiczny.",
+      "historia_cenzury": {
+        "gdzie": "Francja, Szwajcaria (Genewa), Państwo Kościelne, a w XX wieku granice celne USA.",
+        "kiedy": "Od 1759 r. do lat 30. XX wieku.",
+        "przez_kogo": "Rada Stanu we Francji, Rada Dwustu w Genewie, rzymska Kongregacja Indeksu (Index Librorum Prohibitorum), Służba Celna USA.",
+        "jak_dlugo": "Książka została natychmiast po opublikowaniu spalona publicznie w Genewie i Paryżu. Przez ponad 150 lat figurowała na kościelnym indeksie. Co ciekawe, w 1930 roku amerykańskie urzędy celne w Bostonie skonfiskowały nakład powieści pod zarzutem szerzenia 'obsceniczności', co wywołało olbrzymi skandal w środowisku akademickim."
+      },
+      "co_najbardziej_przestraszylo_cenzorow": "Cenzorów najbardziej przeraziło użycie humoru, ironii i absurdu jako broni masowego rażenia wymierzonej w święte prawdy wiary. Wolter udowodnił, że wyśmianie religijnego fanatyzmu jest bez porównania skuteczniejsze i bardziej niszczycielskie niż najgłębsze, naukowe traktaty ateistyczne, ponieważ śmiech pozbawia opresyjne instytucje ich nastroju powagi i grozy.",
+      "wplyw_na_kulture": "Dzieło uznawane jest za jedno z najważniejszych arcydzieł epoki Oświecenia. Stało się symbolem walki o wolność słowa, tolerancję religijną i sekularyzację życia publicznego. Do dziś stanowi kanoniczny przykład krytycznej satyry społeczno-filozoficznej, inspirując pokolenia myślicieli, publicystów i pisarzy na całym świecie.",
+      "przeczytaj_takze": [
+        "Traktat o tolerancji",
+        "Podróże Guliwera",
+        "Listy perskie"
+      ],
+      "ciekawostki": [
+        "Książka ukazała się potajemnie i anonimowo, podpisana jako rzekome tłumaczenie z języka niemieckiego autorstwa nieistniejącego 'doktora Ralpha'. Wolter przez lata zaprzeczał autorstwu, określając dzieło jako 'coś absolutnie niegodnego jego pióra'.",
+        "Pomimo natychmiastowego zakazu druku i palenia egzemplarzy przez katów na rynkach miast, w samym tylko roku 1759 sprzedano gigantyczną jak na tamte czasy liczbę ponad 30 000 sztuk, co czyniło ją bestsellerem podziemnego obiegu.",
+        "Bezpośrednią inspiracją do napisania książki i uderzenia w optymizm filozoficzny było tragiczne trzęsienie ziemi w Lizbonie w 1555 roku, które w dniu Wszystkich Świętych obróciło miasto w gruz i zabiło tysiące wiernych modlących się w kościołach."
+      ],
+      "ocena_wplywu": {
+        "literacki": 5,
+        "polityczny": 5,
+        "filozoficzny": 5,
         "spoleczny": 5,
         "aktualnosc": 4
       }
