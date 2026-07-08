@@ -190,5 +190,119 @@
          "spoleczny":4,
          "aktualnosc":5
       }
-   }
+   },
+   {
+      "id": 6,
+      "archetype": "2. Władza boi się ciała – seksualność i obyczajowość",
+      "dane_bibliograficzne": {
+        "tytul": "Kochanek Lady Chatterley",
+        "autor": "D.H. Lawrence",
+        "rok_wydania": 1928,
+        "kraj_pochodzenia": "Wielka Brytania",
+        "gatunek": "Powieść społeczno-obyczajowa"
+      },
+      "o_czym_jest": "Powieść przedstawia losy Konstancji (Connie) Chatterley, młodej arystokratki, której starszy mąż, Clifford, wraca z I wojny światowej sparaliżowany od pasa w dół i emocjonalnie zdystansowany. Sfrustrowana życiem w chłodnym, industrialnym majątku i skazana na platoniczne małżeństwo, Connie wdaje się w płomienny, zmysłowy romans z gajowym Oliverem Mellorsem. Lawrence z niezwykłą drobiazgowością opisuje fizyczną stronę ich relacji, ukazując seksualność jako życiodajną, mistyczną i oczyszczającą siłę zdolną do przełamywania barier społecznych. Książka stanowi głębokie studium wyobcowania człowieka w zmechanizowanym świecie oraz próbę rehabilitacji ludzkiego ciała, które wiktoriańska moralność próbowała całkowicie zmarginalizować.",
+      "dlaczego_byla_zakazywana": "Oficjalnym powodem zakazów była skrajna obsceniczność, rzekoma pornografia oraz wulgarność języka – autor bez ogródek używał potocznych określeń narządów płciowych i aktów seksualnych. Cenzorów i tradycyjne społeczeństwo przeraziła jednak przede wszystkim moralna aprobata dla zdrady małżeńskiej oraz fakt, że autorytet kobiety z wyższych sfer został zrównany z pożądaniem do mężczyzny z klasy robotniczej. Powieść uderzała w same fundamenty brytyjskiego systemu klasowego i instytucji małżeństwa.",
+      "historia_cenzury": {
+        "gdzie": "Wielka Brytania, Stany Zjednoczone, Australia, Kanada, Japonia",
+        "kiedy": "Lata 1928–1960",
+        "przez_kogo": "Brytyjska policja metropolitalna (skonfiskowała pierwsze nieoficjalne nakłady), Urząd Pocztowy USA (zakazał dystrybucji drogą pocztową), rządy federalne Kanady i Australii",
+        "jak_dlugo": "Książka była zakazana w dystrybucji komercyjnej w Wielkiej Brytanii i USA przez ponad 30 lat. Pełna, nieocenzurowana wersja mogła ukazać się legalnie dopiero po słynnym procesie wydawnictwa Penguin Books w 1960 roku."
+      },
+      "co_najbardziej_przestraszylo_cenzorow": "Najbardziej przerażający dla cenzury był fakt, że seks w powieści nie został przedstawiony jako grzeszna słabość lub powód do wstydu, lecz jako droga do duchowego i psychicznego wyzwolenia. Ponadto obnażenie faktu, że pożądanie fizyczne ignoruje sztywne granice klasowe dzielące arystokrację od robotników, stanowiło bezpośrednie zagrożenie dla ówczesnego ładu społecznego.",
+      "wplyw_na_kulture": "Proces sądowy z 1960 roku w Wielkiej Brytanii stał się punktem zwrotnym dla wolności słowa w całym świecie zachodnim. Wygrana wydawnictwa Penguin Books zdemontowała przestarzałe prawo o publikacjach obscenicznych i otworzyła drogę do rewolucji seksualnej lat 60. Książka stała się symbolem literackiej walki o prawo do nieskrępowanego opisywania ludzkiej fizjologii.",
+      "przeczytaj_takze": [
+        "Zwrotnik Raka",
+        "Lolita",
+        "Fanny Hill, czyli pamiętniki kurtyzany"
+      ],
+      "ciekawostki": [
+        "Podczas słynnego procesu w Londynie prokurator zapytał ławników: 'Czy jest to książka, którą chcieliby Państwo, aby przeczytała wasza żona lub wasi służący?', co obnażyło klasowy i paternalistyczny charakter ówczesnej cenzury.",
+        "Z powodu zakazu druku w Anglii, Lawrence musiał wydać pierwsze egzemplarze własnym sumptem we Florencji przy pomocy lokalnego drukarza, który nie znał języka angielskiego i nie rozumiał kontrowersyjnej treści.",
+        "Wydawnictwo Penguin Books po wygranej sprawie sądowej opublikowało dedykację dla ławników, którzy umożliwili Brytyjczykom swobodne czytanie dzieła Lawrence'ego."
+      ],
+      "ocena_wplywu": {
+        "literacki": 4,
+        "polityczny": 3,
+        "filozoficzny": 4,
+        "spoleczny": 5,
+        "aktualnosc": 3
+      }
+    },
+    {
+      "id": 7,
+      "archetype": "2. Władza boi się ciała – seksualność i obyczajowość",
+      "dane_bibliograficzne": {
+        "tytul": "Lolita",
+        "autor": "Vladimir Nabokov",
+        "rok_wydania": 1955,
+        "kraj_pochodzenia": "Francja / Stany Zjednoczone",
+        "gatunek": "Powieść psychologiczna"
+      },
+      "o_czym_jest": "Powieść ma formę wspomnień Humberta Humberta – dojrzałego, wykształconego europejskiego intelektualisty, który odczuwa obsesyjny pociąg seksualny do dziewcząt w wieku wczesnodojrzewającym, określanych przez niego mianem 'nimfetek'. Jego uwaga skupia się na dwunastoletniej Dolores Haze (Lolicie). Aby zbliżyć się do dziewczynki, Humbert żeni się z jej matką, a po jej tragicznej śmierci wyrusza z pasierbicą w długą podróż po amerykańskich prowincjonalnych motelach. Nabokov tworzy wyrafinowany stylistycznie, hipnotyzujący zapis manipulacji, psychicznego osaczenia i nadużycia, w którym narrator desperacko próbuje usprawiedliwić swoje czyny przed wyimaginowanym sądem ostatecznym, demaskując przy tym pustkę i kicz powojennej kultury amerykańskiej.",
+      "dlaczego_byla_zakazywana": "Książkę oskarżano o gloryfikację i propagowanie pedofilii, kazirodztwa oraz ekstremalną perwersję moralną. Obrońcy moralności byli zszokowani faktem, że tak drastyczny temat został ujęty w niezwykle estetyczną, liryczną formę. Panował powszechny lęk, że wysoki poziom artystyczny dzieła ułatwi czytelnikom zaakceptowanie i zracjonalizowanie potwornego przestępstwa seksualnego wobec bezbronnego dziecka.",
+      "historia_cenzury": {
+        "gdzie": "Francja, Wielka Brytania, Stany Zjednoczone, Argentyna, Republika Południowej Afryki",
+        "kiedy": "Lata 1955–1959",
+        "przez_kogo": "Francuskie Ministerstwo Spraw Wewnętrznych (na prośbę brytyjskiego Home Office), amerykańskie służby celne, lokalne ligi przyzwoitości",
+        "jak_dlugo": "We Francji powieść była zakazywana falami w latach 1956-1958. W Wielkiej Brytanii i USA oficjalna sprzedaż była blokowana lub mocno utrudniana przez urzędników celnych i bibliotecznych do późnych lat 50. XX wieku."
+      },
+      "co_najbardziej_przestraszylo_cenzorow": "Cenzorów przeraziła genialna konstrukcja narracji pierwszoosobowej. Nabokov zmusił czytelnika do wejścia w umysł drapieżcy seksualnego, który posługując się elokwencją, humorem i poetyckim językiem, wzbudza współczucie. Największym lękiem było to, że odbiorcy ulegną manipulacji Humberta, zatracą zdolność odróżniania dobra od zła i zaczną postrzegać ofiarę jako prowokatorkę.",
+      "wplyw_na_kulture": "Dzieło zrewolucjonizowało współczesną powieść, stając się klasycznym przykładem 'niewiarygodnego narratora'. Słowo 'lolita' weszło na stałe do potocznego języka jako określenie przedwcześnie dojrzałej dziewczyny, choć często w sposób błędny i odarty z tragizmu opisanego przez Nabokova. Książka zapoczątkowała też fundamentalne debaty nad granicami wolności sztuki w przedstawianiu najmroczniejszych ludzkich dewiacji.",
+      "przeczytaj_takze": [
+        "Śmierć w Wenecji",
+        "Portret Doriana Graya",
+        "Kolekcjoner"
+      ],
+      "ciekawostki": [
+        "Z obawy przed zniszczeniem kariery uniwersyteckiej Nabokov początkowo chciał wydać książkę pod pseudonimem Vivian Darkbloom (anagram jego imienia i nazwiska).",
+        "Wydawcy w USA kategorycznie odrzucili rękopis, sugerując pisarzowi, by zakopał go na 30 lat. Książka ukazała się najpierw w Paryżu nakładem Olympia Press – wydawnictwa specjalizującego się w literaturze pornograficznej, co dodatkowo utrudniło jej odbiór jako dzieła sztuki.",
+        "Żona pisarza, Véra Nabokov, wielokrotnie powstrzymywała męża przed fizycznym spaleniem rękopisu w ogrodowym piecu, kiedy ten wpadał w rozpacz z powodu braku perspektyw na publikację."
+      ],
+      "ocena_wplywu": {
+        "literacki": 5,
+        "polityczny": 2,
+        "filozoficzny": 4,
+        "spoleczny": 5,
+        "aktualnosc": 5
+      }
+    },
+    {
+      "id": 8,
+      "archetype": "2. Władza boi się ciała – seksualność i obyczajowość",
+      "dane_bibliograficzne": {
+        "tytul": "Zwrotnik Raka",
+        "autor": "Henry Miller",
+        "rok_wydania": 1934,
+        "kraj_pochodzenia": "Stany Zjednoczone / Francja",
+        "gatunek": "Powieść autobiograficzna / Strumień świadomości"
+      },
+      "o_czym_jest": "Powieść stanowi surowy, pozbawiony moralizatorstwa zapis życia amerykańskiego emigranta-literata w Paryżu w okresie wielkiego kryzysu lat 30. Miller rezygnuje z tradycyjnej fabuły na rzecz chaotycznego, pełnego energii strumienia świadomości. Opisuje skrajną biedę, głód, egzystencjalną pustkę oraz nieskrępowane, skrajnie naturalistyczne przygody seksualne z prostytutkami i przypadkowymi kobietami. Brutalny fizjologiczny realizm, wulgarny język ulicy oraz naturalistyczne opisy wydzielin ustrojowych przeplatają się w dziele z głębokimi, wizjonerskimi refleksjami filozoficznymi na temat śmierci sztuki, rozpadu cywilizacji zachodniej i powrotu człowieka do pierwotnej, zwierzęcej wolności.",
+      "dlaczego_byla_zakazywana": "Książkę okrzyknięto esencją pornografii i obsceniczności. Cenzorów przeraziło całkowite odarcie zbliżeń intymnych z romantycznej aury, miłości czy duchowości – Miller pisał o seksie z brutalnym obiektywizmem fizjologa, używając rynsztokowego słownictwa bez jakichkolwiek eufemizmów. Zarzucano mu promowanie rozwiązłości, nihilizmu, aspołecznego trybu życia oraz sianie zgorszenia publicznego na niespotykaną dotąd skalę.",
+      "historia_cenzury": {
+        "gdzie": "Stany Zjednoczone, Wielka Brytania, Kanada, Australia",
+        "kiedy": "Lata 1934–1964",
+        "przez_kogo": "Służba Celna USA (US Customs), Departament Sprawiedliwości USA, lokalne sądy i policja",
+        "jak_dlugo": "W Stanach Zjednoczonych i Wielkiej Brytanii książka była oficjalnie zakazana przez blisko 30 lat. Każda próba sprowadzenia jej egzemplarza groziła konfiskatą i procesem karnym, dopóki sprawa nie trafiła przed Sąd Najwyższy USA."
+      },
+      "co_najbardziej_przestraszylo_cenzorow": "Lęk cenzorów budziła absolutna bezwstydność autora i jego drwiący stosunek do mieszczańskich wartości. Miller zniszczył tabu językowe, dowodząc, że słowa powszechnie uznane za brudne mogą służyć jako narzędzie autentycznej ekspresji artystycznej. Ponadto jego bezpardonowy atak na amerykański purytanizm i materializm uznano za wywrotowy i zagrażający spójności społecznej.",
+      "wplyw_na_kulture": "Przełomowy wyrok Sądu Najwyższego USA z 1964 roku w sprawie Grove Press Inc. przeciwko Gersteinowi ostatecznie zdefiniował granice tego, co prawo może uznać za 'obsceniczne'. Wyrok ten uwolnił amerykańską literaturę od pruderyjnych ograniczeń, otwierając drogę dla takich twórców jak Beatnicy (Kerouac, Ginsberg) czy Charles Bukowski. Miller udowodnił, że literatura wysoka może bez przeszkód czerpać z rynsztoka.",
+      "przeczytaj_takze": [
+        "Zwrotnik Koziorożca",
+        "Nagi lunch",
+        "Skowyt"
+      ],
+      "ciekawostki": [
+        "Przed 1961 rokiem 'Zwrotnik Raka' był jedną z najczęściej szmuglowanych książek w historii USA. Amerykańscy turyści masowo przemycali paryskie wydania ukryte w bieliźnie lub owinięte w okładki innych powieści.",
+        "Po opublikowaniu książki w USA w 1961 roku wytoczono ponad 60 procesów o obsceniczność przeciwko księgarzom, którzy odważyli się ją sprzedawać.",
+        "Wydawca Maurice Girodias wspominał, że Miller napisał książkę w nędzy, często kradnąc jedzenie lub żywiąc się u przyjaciół, wierząc, że tworzy dzieło, które na zawsze zniszczy dotychczasowy porządek literacki."
+      ],
+      "ocena_wplywu": {
+        "literacki": 5,
+        "polityczny": 3,
+        "filozoficzny": 4,
+        "spoleczny": 5,
+        "aktualnosc": 4
+      }
+    }
 ]
