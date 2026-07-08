@@ -1,0 +1,574 @@
+[
+   {
+      "id":1,
+      "archetype":"1. Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"Rok 1984",
+         "autor":"George Orwell",
+         "rok_wydania":1949,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Dystopia polityczna"
+      },
+      "o_czym_jest":"Akcja rozgrywa się w fikcyjnym państwie Oceania, rządzonym autorytarnie przez totalitarną Partię i wszechobecną postać zwaną Wielkim Bratem. Główny bohater, Winston Smith, pracuje w Ministerstwie Prawdy, gdzie zajmuje się fałszowaniem i przepisywaniem historii na bieżące potrzeby propagandy. Stopniowo zaczyna budzić się w nim wewnętrzny sprzeciw, przez co podejmuje próbę zachowania własnych myśli, tożsamości, pamięci i zakazanej miłości w świecie całkowitej inwigilacji.",
+      "dlaczego_byla_zakazywana":"Książka stała się uniwersalnym zagrożeniem dla systemów politycznych o skrajnej ideologii. Najczęstsze oficjalne zarzuty dotyczyły wyrazistej krytyki komunizmu i totalitaryzmu, rzekomego wydźwięku antypaństwowego, obecności wątków seksualnych oraz skrajnego nihilizmu i pesymizmu politycznego.",
+      "historia_cenzury":{
+         "gdzie":"Związek Radziecki, kraje bloku wschodniego (w tym PRL), Chiny, lokalne szkoły i biblioteki publiczne w USA.",
+         "kiedy":"Od momentu wydania w 1949 roku, przez całą zimną wojnę, aż do współczesnych incydentów cenzorskich w amerykańskich okręgach szkolnych.",
+         "przez_kogo":"Państwowe organy cenzury (GUKPPiW w Polsce, Główny Urząd Ochrony Tajemnic w ZSRR), rady pedagogiczne i konserwatywne komitety rodzicielskie.",
+         "jak_dlugo":"W bloku wschodnim całkowity zakaz druku i dystrybucji trwał prawie 40 lat (do przełomu lat 80. i 90.). W USA potyczki w bibliotekach mają charakter punktowy i powracają falami."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Dla cenzorów najbardziej niebezpieczna okazała się nie przemoc czy obyczajowość, lecz precyzyjna wiwisekcja mechanizmu manipulacji prawdą. Przerażała ich idea, że władza może kontrolować przeszłość i narzucać definicję rzeczywistości za pomocą takich narzędzi jak nowomowa, dwójmyślenie czy Policja Myśli.",
+      "wplyw_na_kulture":"To jedna z najważniejszych i najczęściej cytowanych powieści XX wieku. Wprowadziła do języków świata pojęcia, które trwale opisują zagrożenia demokracji: 'orwellowski', 'Wielki Brat', 'nowomowa'. Stanowi fundament współczesnych debat o inwigilacji cyfrowej, algorytmach i dezinformacji.",
+      "przeczytaj_takze":[
+         "My",
+         "Nowy wspaniały świat",
+         "451° Fahrenheita",
+         "Ciemność w południe"
+      ],
+      "ciekawostki":[
+         "Orwell pisał tę powieść będąc śmiertelnie chorym na gruźlicę, w surowych warunkach na odizolowanej szkockiej wyspie Jura.",
+         "Roboczy tytuł brzmiał 'Ostatni człowiek w Europie', jednak wydawca przekonał autora do zmiany na bardziej komercyjny rok.",
+         "Sprzedaż książki drastycznie rośnie na całym świecie za każdym razem, gdy rządy wprowadzają nowe, kontrowersyjne programy nadzoru obywateli."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":5,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":2,
+      "archetype":"1. Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"451° Fahrenheita",
+         "autor":"Ray Bradbury",
+         "rok_wydania":1953,
+         "kraj_pochodzenia":"Stany Zjednoczone",
+         "gatunek":"Dystopia, fantastyka naukowa"
+      },
+      "o_czym_jest":"W futurystycznym, antyintelektualnym społeczeństwie posiadanie i czytanie książek jest surowo zabronione. Główny bohater, Guy Montag, jest 'strażakiem', którego zadaniem nie jest jednak gaszenie pożarów, lecz ich wzniecanie w celu niszczenia literatury i domów jej właścicieli. Pod wpływem spotkania z ekscentryczną dziewczyną Clarisse, Montag zaczyna dostrzegać potworną pustkę świata opartego na bezrefleksyjnej kulturze obrazkowej i natychmiastowej gratyfikacji.",
+      "dlaczego_byla_zakazywana":"Paradoksalnie, książka opowiadająca o destrukcyjnej sile cenzury sama padła jej ofiarą. Najczęstszymi oficjalnymi motywami były: używanie wulgarnego języka (słowa takie jak 'hell' czy 'damn'), rzekoma obraza uczuć religijnych (poprzez scenę palenia Biblii) oraz wzbudzanie niepokoju i buntu u młodzieży.",
+      "historia_cenzury":{
+         "gdzie":"Głównie w USA (szkoły średnie i biblioteki w Kalifornii, Missisipi, Teksasie) oraz w RPA w epoce apartheidu.",
+         "kiedy":"Notorycznie kwestionowana od lat 60. XX wieku po czasy współczesne.",
+         "przez_kogo":"Szkolne komitety rewizyjne, konserwatywne organizacje wyznaniowe, urzędnicy państwowi systemu apartheidu.",
+         "jak_dlugo":"Większość banów w USA miała charakter lokalny, ale w 1967 roku wydawnictwo Ballantine Books wydało potajemnie 'oczyszczoną' wersję szkolną pozbawioną wulgaryzmów, która krążyła w obiegu przez 13 lat, zanim autor wymusił jej wycofanie."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Cenzorów najbardziej przeraziło lustro, jakie Bradbury postawił przed społeczeństwem konsumpcyjnym. Powieść obnażała mechanizm, w którym obywatele sami dobrowolnie rezygnują z myślenia na rzecz wszechobecnych ekranów telewizyjnych (tzw. 'ścian multimedialnych') i pigułek szczęścia.",
+      "wplyw_na_kulture":"Tytułowa temperatura (uznawana za temperaturę zapłonu papieru) stała się globalnym symbolem niszczenia wolnej myśli i cenzury. Doczekała się kultowych adaptacji filmowych (m.in. François Truffaut) i stanowi punkt odniesienia w dyskusjach o zaniku czytelnictwa.",
+      "przeczytaj_takze":[
+         "Rok 1984",
+         "Nowy wspaniały świat",
+         "Opowieść podręcznej",
+         "My"
+      ],
+      "ciekawostki":[
+         "Bradbury napisał pierwszy szkic powieści w piwnicy biblioteki UCLA na maszynie na monety – kosztowało go to łącznie 9 dolarów i 80 centów.",
+         "Mimo motywu palenia książek, autor wielokrotnie powtarzał, że prawdziwym wrogiem opisywanym w powieści jest uzależnienie od telewizji i mediów masowych.",
+         "W niektórych amerykańskich szkołach książka była wydawana uczniom z dosłownie zamalowanymi czarnym markerem pojedynczymi wyrazami."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":4,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":3,
+      "archetype":"1. Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"Nowy wspaniały świat",
+         "autor":"Aldous Huxley",
+         "rok_wydania":1932,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Antyutopia / Dystopia"
+      },
+      "o_czym_jest":"Powieść Aldousa Huxleya przedstawia wizję społeczeństwa przyszłości (Republiki Świata), w którym ostatecznie wyeliminowano wojny, ubóstwo i choroby, ale za cenę całkowitej utraty wolności osobistej, wyższych uczuciu, sztuki i religii. Ludzie są warunkowani genetycznie oraz psychologicznie (poprzez hipnopedię) już od momentu powstania w probówkach, a następnie przypisywani do konkretnych kast (od inteligentnych Alf po zredukowanych intelektualnie Epsilonów), co rzekomo gwarantuje absolutną stabilność społeczną. Społeczeństwo to opiera się na powszechnym konsumpcjonizmie, rozwiązłości seksualnej traktowanej jako obowiązek obywatelski oraz na zażywaniu narkotyku o nazwie 'soma', który skutecznie tłumi wszelkie negatywne emocje i bunt. Główny konflikt wybucha, gdy do tego pozornie idealnego, mechanicznego świata trafia John 'Dzikus' – człowiek wychowany w rezerwacie, znający na pamięć dzieła Szekspira i wyznający tradycyjne wartości moralne. Jego zderzenie z utylitarną, pozbawioną głębi cywilizacją demaskuje dehumanizujący charakter utopii, w której powierzchowny komfort fizyczny całkowicie zastąpił wolną wolę, indywidualizm i poszukiwanie prawdy.",
+      "dlaczego_byla_zakazywana":"Oficjalnym powodem cenzury w wielu krajach była 'rozwiązłość' oraz rzekoma demoralizacja młodzieży. Władze oświatowe w USA i Irlandii zarzucały książce promowanie promiskuityzmu, pogardę dla tradycyjnego modelu rodziny (słowa 'matka' i 'ojciec' traktowane są w powieści jako wulgaryzmy) oraz negatywny i lekceważący stosunek do religii chrześcijańskiej. Prawdziwym, głębszym lękiem cenzorów była jednak niezwykle ostra krytyka mechanizmów kontroli społecznej i bezmyślnego konformizmu. Władze obawiały się, że powieść zbyt trafnie obnaża metody propagandowe, inżynierię społeczną oraz manipulowanie masami poprzez tanią rozrywkę, co mogło skłaniać obywateli (szczególnie młodzież) do kwestionowania narzucanego porządku społecznego i gospodarczego.",
+      "historia_cenzury":{
+         "gdzie":"Irlandia, Australia, Indie, liczne stany i okręgi szkolne w Stanach Zjednoczonych (m.in. Kalifornia, Teksas, Maryland, Missouri).",
+         "kiedy":"Od momentu publikacji w 1932 roku (Irlandia), przez dekady powojenne (lata 60. i 70. w Indiach i Australii), aż po liczne i regularne wyzwania w amerykańskich szkołach w latach 80., 90. oraz w XXI wieku.",
+         "przez_kogo":"Krajowe rady ds. cenzury (np. Irish Censorship of Publications Board), państwowe urzędy telekomunikacji i informacji, zrzeszenia konserwatywnych rodziców oraz lokalne rady szkolne i dyrekcje bibliotek publicznych.",
+         "jak_dlugo":"W Irlandii twardy zakaz obowiązywał przez kilka dziesięcioleci od wydania. W Stanach Zjednoczonych książka regularnie, niemal w każdej dekadzie, trafia na indeksy lektur zakazanych lub kwestionowanych w poszczególnych dystryktach oświatowych, zmagając się z próbami usunięcia z programów nauczania aż do dzisiaj."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Przerażenie cenzorów wywołała teza, że najskuteczniejszym i najgroźniejszym narzędziem zniewolenia wcale nie jest aparat policyjnego terroru i przemocy, lecz nieograniczona, ogólnodostępna rozrywka, płytka przyjemność fizyczna i wszechobecna technologiczna manipulacja. Bali się oni uświadomienia czytelnikom, że zachodnie społeczeństwa mogą dobrowolnie oddać swoją wolność, poddając się inwigilacji za obietnicę bezpieczeństwa, wiecznej młodości i braku cierpienia.",
+      "wplyw_na_kulture":"Książka Huxleya jest jednym z absolutnych filarów XX-wiecznej literatury dystopijnej. Stanowi intelektualną przeciwwagę dla 'Roku 1984' George'a Orwella, wprowadzając model 'totalitaryzmu przyjemności' (zamiast totalitaryzmu strachu). Wprowadziła do języka potocznego terminy takie jak 'soma' czy samo wyrażenie 'nowy wspaniały świat' jako ironiczne określenie technologicznej, odhumanizowanej utopii. Jej tezy fundamentalnie wpłynęły na socjologię, filozofię techniki, analizę mediów (m.in. prace Neila Postmana) oraz światową popkulturę, stanowiąc inspirację dla niezliczonych filmów i książek science fiction.",
+      "przeczytaj_takze":[
+         "Rok 1984 - George Orwell",
+         "451 stopni Fahrenheita - Ray Bradbury",
+         "My - Jewgienij Zamiatin"
+      ],
+      "ciekawostki":[
+         "Tytuł książki został bezpośrednio zaczerpnięty z aktu V sztuki 'Burza' Williama Szekspira, w którym naiwna Miranda zachwyca się ludźmi przybyłymi na wyspę słowami: 'O wonder! How many goodly creatures are there here! (...) O brave new world, That has such people in't!'.",
+         "Powieść pierwotnie zaczęła powstawać jako parodia hurraoptymistycznych, utopijnych powieści H.G. Wellsa (takich jak 'Ludzie jak bogowie'), jednak w trakcie procesu twórczego ewoluowała w ponurą, autonomiczną dystopię.",
+         "W 1958 roku, 26 lat po premierze powieści, Aldous Huxley opublikował zbiór esejów zatytułowany 'Nowy wspaniały świat poprawiony', w którym ze zgrozą przyznał, że wiele z jego pesymistycznych przepowiedni dotyczących manipulacji społeczeństwem realizuje się znacznie szybciej, niż sam początkowo zakładał."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":4,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":4,
+      "archetype":"3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne":{
+         "tytul":"Szatańskie wersety",
+         "autor":"Salman Rushdie",
+         "rok_wydania":1988,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Realizm magiczny"
+      },
+      "o_czym_jest":"Powieść opowiada o dwóch indyjskich muzułmanach, Gibreelu Farishcie i Saladinie Chamchy, którzy cudem przeżywają katastrofę porwanego samolotu nad kanałem La Manche. Opadając na ziemię, przechodzą transformacje – jeden staje się archaniołem Gabrielem, drugi demonem. Współczesna fabuła przeplata się z serią onirycznych, surrealistycznych wizji. Najbardziej kontrowersyjna z nich dotyczy alternatywnej historii początków islamu i postaci proroka (ukrytego pod imieniem Mahound), w tym epizodu tytułowych szatańskich wersetów – objawienia rzekomo podsuniętego przez diabła, a pomyłkowo wziętego za słowo Boże.",
+      "dlaczego_byla_zakazywana":"Książka wywołała powszechne oburzenie w świecie islamskim z powodu rzekomego bluźnierstwa. Zarzucano jej obrazoburcze i prześmiewcze przedstawienie proroka Mahometa, jego żon (ukazanych w snach bohatera jako prostytutki) oraz towarzyszy. Dla ortodoksyjnych teologów muzułmańskich literacka fikcja została zinterpretowana jako bezpośredni, dosłowny atak na autentyczność Koranu i same fundamenty wiary, ze szczególnym naciskiem na sugestię, jakoby pismo święte mogło zostać skażone diabelską ingerencją.",
+      "historia_cenzury":{
+         "gdzie":"Kraje muzułmańskie (m.in. Indie, Pakistan, Arabia Saudyjska, Iran, Egipt, Somalia, Bangladesz) oraz księgarnie w krajach zachodnich wskutek gróźb.",
+         "kiedy":"Od 1988 roku do dziś.",
+         "przez_kogo":"Rządy państw (pierwsze zakazały Indie), a w wymiarze absolutnym ajatollah Ruhollah Chomejni (poprzez wydanie fatwy).",
+         "jak_dlugo":"Cenzura, groźby i wyroki religijne trwają nieprzerwanie od końca lat 80. do dzisiaj."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Rozmycie granic między sacrum a profanum. Prawdziwym, głębokim lękiem cenzorów religijnych była swoboda artystycznej interpretacji świętych tekstów oraz wywrotowa teza sugerująca, że niepodważalne prawdy objawione mogą podlegać ludzkim wątpliwościom lub zniekształceniom.",
+      "wplyw_na_kulture":"Książka stała się globalnym, tragicznym symbolem zderzenia fundamentalizmu religijnego z prawem do wolności słowa. Zapoczątkowała jedną z największych współczesnych debat o granicach sztuki i bezpieczeństwie artystów w zglobalizowanym świecie.",
+      "przeczytaj_takze":[
+         "Ostatnie kuszenie Chrystusa",
+         "Dzieci północy",
+         "Imię róży"
+      ],
+      "ciekawostki":[
+         "W lutym 1989 roku ajatollah Chomejni wydał fatwę wzywającą wszystkich muzułmanów do zabicia Rushdiego i jego wydawców, zmuszając autora do wieloletniego życia w ukryciu.",
+         "Hitoshi Igarashi, japoński tłumacz powieści, został zasztyletowany w 1991 roku; ataki zbrojne dotknęły również włoskiego tłumacza oraz norweskiego wydawcę.",
+         "W 2022 roku, ponad trzy dekady po publikacji książki, Salman Rushdie został zaatakowany nożem podczas wykładu w stanie Nowy Jork, w wyniku czego stracił oko i władzę w jednej ręce."
+      ],
+      "ocena_wplywu":{
+         "literacki":4,
+         "polityczny":5,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":5,
+      "archetype":"1. Władza boi się prawdy – dystopie i literatura polityczna",
+      "dane_bibliograficzne":{
+         "tytul":"My",
+         "autor":"Jewgienij Zamiatin",
+         "rok_wydania":1924,
+         "kraj_pochodzenia":"ZSRR",
+         "gatunek":"Dystopia, Fantastyka naukowa"
+      },
+      "o_czym_jest":"Akcja powieści toczy się w odległej przyszłości, w zmatematyzowanym Państwie Jedynym, które odcięte jest od dzikiej natury za pomocą potężnego Zielonego Muru. Mieszkańcy tego totalitarnego świata pozbawieni są imion i nazwisk – zamiast tego posługują się przydzielonymi numerami (głównym bohaterem i narratorem jest konstruktor statku kosmicznego Integrale o numerze D-503). Jest to społeczeństwo całkowicie zracjonalizowane i z góry zaplanowane przez Godzinowe Tablice, określające precyzyjnie czas na pracę, sen, a nawet miłość fizyczną, odbywającą się za okazaniem różowych biletów. Nad wszystkim czuwa despotyczny Dobroczyńca. Rutynowe, pozbawione trosk życie D-503 rozpada się w momencie spotkania tajemniczej, zbuntowanej kobiety I-330, która wciąga go w spisek antyrządowy. Bohater zaczyna odczuwać irracjonalne emocje – miłość oraz posiadanie duszy, co w jego społeczeństwie uznawane jest za niebezpieczną chorobę psychiczną, którą leczy się chirurgicznym wycięciem wyobraźni.",
+      "dlaczego_byla_zakazywana":"Powieść stała się obiektem natychmiastowej agreski cenzorskiej, ponieważ stanowiła niezwykle trafną, profetyczną satyrę na nowo powstający system radziecki oraz bezduszną, ślepą industrializację. Zamiatin, chociaż początkowo sympatyzował z bolszewikami, szybko dostrzegł zagrożenie tkwiące w dążeniu partii do całkowitego podporządkowania jednostki kolektywowi, stłumienia indywidualizmu i zamiany wolnej woli w bezrefleksyjne posłuszeństwo. Radzieccy urzędnicy i cenzorzy bez trudu dostrzegli w postaci Dobroczyńcy i mechanizmach Państwa Jedynego karykaturę nowej, komunistycznej rzeczywistości społecznej, uznając dzieło za wrogą propagandę i antyradziecki paszkwil.",
+      "historia_cenzury":{
+         "gdzie":"Związek Radziecki (ZSRR) oraz pozostałe kraje bloku wschodniego.",
+         "kiedy":"Napisana w latach 1920–1921, objęta natychmiastowym zakazem druku. Stan cenzury trwał w ZSRR aż do 1988 roku.",
+         "przez_kogo":"Główny Urząd ds. Literatury i Wydawnictw (Gławlit), radzieckie organizacje pisarzy podległe partii bolszewickiej.",
+         "jak_dlugo":"Zakaz publikacji in ojczyźnie pisarza obowiązywał przez 64 lata od momentu pierwszego wydania na świecie."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Ideologiczna koncepcja nieskończonej rewolucji wygłoszona przez I-330, która twierdziła, że nie istnieje „ostatnia rewolucja”, ponieważ ich liczba jest nieskończona tak jak liczby matematyczne. Było to bezpośrednie uderzenie w radziecki dogmat głoszący, że rewolucja październikowa stanowiła ostateczny, idealny kres historycznych przemian. Cenzorów przeraziło także przedstawienie przymusowego usuwania wyobraźni (Wielkiej Operacji) jako ostatecznego narzędzia pacyfikacji obywateli przez aparat państwowy.",
+      "wplyw_na_kulture":"Książka stała się fundamentem i bezpośrednim źródłem inspiracji dla najważniejszych dzieł literatury dystopijnej XX wieku. George Orwell otwarcie przyznawał, że pisał swoją powieść „Rok 1984” pod ogromnym wpływem lektury dzieła Zamiatina. Podobny wpływ „My” wywarło na Aldousa Huxleya przy tworzeniu „Nowego wspaniałego świata”.",
+      "przeczytaj_takze":[
+         "Rok 1984",
+         "Nowy wspaniały świat",
+         "Fahrenheit 451"
+      ],
+      "ciekawostki":[
+         "Z powodu całkowitej blokady cenzorskiej w Rosji, powieść po raz pierwszy ukazała się drukiem w 1924 roku w Nowym Jorku, przetłumaczona na język angielski.",
+         "W 1931 roku, będąc ofiarą bezwzględnej nagonki literackiej i politycznej w ZSRR, Zamiatin napisał odważny, osobisty list bezpośrednio do Józefa Stalina, prosząc go o zgodę na wyjazd z kraju. Dzięki wstawiennictwu Maksyma Gorkiego dyktator niespodziewanie wyraził zgodę na emigrację pisarza do Francji.",
+         "W Związku Radzieckim pełny, oryginalny tekst powieści został oficjalnie opublikowany dopiero w 1988 roku, w dobie reform pierestrojki, ponad pół wieku po śmierci autora w Paryżu."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":5,
+         "filozoficzny":5,
+         "spoleczny":4,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":6,
+      "archetype":"2. Władza boi się ciała – seksualność i obyczajowość",
+      "dane_bibliograficzne":{
+         "tytul":"Kochanek Lady Chatterley",
+         "autor":"D.H. Lawrence",
+         "rok_wydania":1928,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Powieść społeczno-obyczajowa"
+      },
+      "o_czym_jest":"Powieść przedstawia losy Konstancji (Connie) Chatterley, młodej arystokratki, której starszy mąż, Clifford, wraca z I wojny światowej sparaliżowany od pasa w dół i emocjonalnie zdystansowany. Sfrustrowana życiem w chłodnym, industrialnym majątku i skazana na platoniczne małżeństwo, Connie wdaje się w płomienny, zmysłowy romans z gajowym Oliverem Mellorsem. Lawrence z niezwykłą drobiazgowością opisuje fizyczną stronę ich relacji, ukazując seksualność jako życiodajną, mistyczną i oczyszczającą siłę zdolną do przełamywania barier społecznych. Książka stanowi głębokie studium wyobcowania człowieka w zmechanizowanym świecie oraz próbę rehabilitacji ludzkiego ciała, które wiktoriańska moralność próbowała całkowicie zmarginalizować.",
+      "dlaczego_byla_zakazywana":"Oficjalnym powodem zakazów była skrajna obsceniczność, rzekoma pornografia oraz wulgarność języka – autor bez ogródek używał potocznych określeń narządów płciowych i aktów seksualnych. Cenzorów i tradycyjne społeczeństwo przeraziła jednak przede wszystkim moralna aprobata dla zdrady małżeńskiej oraz fakt, że autorytet kobiety z wyższych sfer został zrównany z pożądaniem do mężczyzny z klasy robotniczej. Powieść uderzała w same fundamenty brytyjskiego systemu klasowego i instytucji małżeństwa.",
+      "historia_cenzury":{
+         "gdzie":"Wielka Brytania, Stany Zjednoczone, Australia, Kanada, Japonia",
+         "kiedy":"Lata 1928–1960",
+         "przez_kogo":"Brytyjska policja metropolitalna (skonfiskowała pierwsze nieoficjalne nakłady), Urząd Pocztowy USA (zakazał dystrybucji drogą pocztową), rządy federalne Kanady i Australii",
+         "jak_dlugo":"Książka była zakazana w dystrybucji komercyjnej w Wielkiej Brytanii i USA przez ponad 30 lat. Pełna, nieocenzurowana wersja mogła ukazać się legalnie dopiero po słynnym procesie wydawnictwa Penguin Books w 1960 roku."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Najbardziej przerażający dla cenzury był fakt, że seks w powieści nie został przedstawiony jako grzeszna słabość lub powód do wstydu, lecz jako droga do duchowego i psychicznego wyzwolenia. Ponadto obnażenie faktu, że pożądanie fizyczne ignoruje sztywne granice klasowe dzielące arystokrację od robotników, stanowiło bezpośrednie zagrożenie dla ówczesnego ładu społecznego.",
+      "wplyw_na_kulture":"Proces sądowy z 1960 roku w Wielkiej Brytanii stał się punktem zwrotnym dla wolności słowa w całym świecie zachodnim. Wygrana wydawnictwa Penguin Books zdemontowała przestarzałe prawo o publikacjach obscenicznych i otworzyła drogę do rewolucji seksualnej lat 60. Książka stała się symbolem literackiej walki o prawo do nieskrępowanego opisywania ludzkiej fizjologii.",
+      "przeczytaj_takze":[
+         "Zwrotnik Raka",
+         "Lolita",
+         "Fanny Hill, czyli pamiętniki kurtyzany"
+      ],
+      "ciekawostki":[
+         "Podczas słynnego procesu w Londynie prokurator zapytał ławników: 'Czy jest to książka, którą chcieliby Państwo, aby przeczytała wasza żona lub wasi służący?', co obnażyło klasowy i paternalistyczny charakter ówczesnej cenzury.",
+         "Z powodu zakazu druku w Anglii, Lawrence musiał wydać pierwsze egzemplarze własnym sumptem we Florencji przy pomocy lokalnego drukarza, który nie znał języka angielskiego i nie rozumiał kontrowersyjnej treści.",
+         "Wydawnictwo Penguin Books po wygranej sprawie sądowej opublikowało dedykację dla ławników, którzy umożliwili Brytyjczykom swobodne czytanie dzieła Lawrence'ego."
+      ],
+      "ocena_wplywu":{
+         "literacki":4,
+         "polityczny":3,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":3
+      }
+   },
+   {
+      "id":7,
+      "archetype":"2. Władza boi się ciała – seksualność i obyczajowość",
+      "dane_bibliograficzne":{
+         "tytul":"Lolita",
+         "autor":"Vladimir Nabokov",
+         "rok_wydania":1955,
+         "kraj_pochodzenia":"Francja / Stany Zjednoczone",
+         "gatunek":"Powieść psychologiczna"
+      },
+      "o_czym_jest":"Powieść ma formę wspomnień Humberta Humberta – dojrzałego, wykształconego europejskiego intelektualisty, który odczuwa obsesyjny pociąg seksualny do dziewcząt w wieku wczesnodojrzewającym, określanych przez niego mianem 'nimfetek'. Jego uwaga skupia się na dwunastoletniej Dolores Haze (Lolicie). Aby zbliżyć się do dziewczynki, Humbert żeni się z jej matką, a po jej tragicznej śmierci wyrusza z pasierbicą w długą podróż po amerykańskich prowincjonalnych motelach. Nabokov tworzy wyrafinowany stylistycznie, hipnotyzujący zapis manipulacji, psychicznego osaczenia i nadużycia, w którym narrator desperacko próbuje usprawiedliwić swoje czyny przed wyimaginowanym sądem ostatecznym, demaskując przy tym pustkę i kicz powojennej kultury amerykańskiej.",
+      "dlaczego_byla_zakazywana":"Książkę oskarżano o gloryfikację i propagowanie pedofilii, kazirodztwa oraz ekstremalną perwersję moralną. Obrońcy moralności byli zszokowani faktem, że tak drastyczny temat został ujęty w niezwykle estetyczną, liryczną formę. Panował powszechny lęk, że wysoki poziom artystyczny dzieła ułatwi czytelnikom zaakceptowanie i zracjonalizowanie potwornego przestępstwa seksualnego wobec bezbronnego dziecka.",
+      "historia_cenzury":{
+         "gdzie":"Francja, Wielka Brytania, Stany Zjednoczone, Argentyna, Republika Południowej Afryki",
+         "kiedy":"Lata 1955–1959",
+         "przez_kogo":"Francuskie Ministerstwo Spraw Wewnętrznych (na prośbę brytyjskiego Home Office), amerykańskie służby celne, lokalne ligi przyzwoitości",
+         "jak_dlugo":"We Francji powieść była zakazywana falami w latach 1956-1958. W Wielkiej Brytanii i USA oficjalna sprzedaż była blokowana lub mocno utrudniana przez urzędników celnych i bibliotecznych do późnych lat 50. XX wieku."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Cenzorów przeraziła genialna konstrukcja narracji pierwszoosobowej. Nabokov zmusił czytelnika do wejścia w umysł drapieżcy seksualnego, który posługując się elokwencją, humorem i poetyckim językiem, wzbudza współczucie. Największym lękiem było to, że odbiorcy ulegną manipulacji Humberta, zatracą zdolność odróżniania dobra od zła i zaczną postrzegać ofiarę jako prowokatorkę.",
+      "wplyw_na_kulture":"Dzieło zrewolucjonizowało współczesną powieść, stając się klasycznym przykładem 'niewiarygodnego narratora'. Słowo 'lolita' weszło na stałe do potocznego języka jako określenie przedwcześnie dojrzałej dziewczyny, choć często w sposób błędny i odarty z tragizmu opisanego przez Nabokova. Książka zapoczątkowała też fundamentalne debaty nad granicami wolności sztuki w przedstawianiu najmroczniejszych ludzkich dewiacji.",
+      "przeczytaj_takze":[
+         "Śmierć w Wenecji",
+         "Portret Doriana Graya",
+         "Kolekcjoner"
+      ],
+      "ciekawostki":[
+         "Z obawy przed zniszczeniem kariery uniwersyteckiej Nabokov początkowo chciał wydać książkę pod pseudonimem Vivian Darkbloom (anagram jego imienia i nazwiska).",
+         "Wydawcy w USA kategorycznie odrzucili rękopis, sugerując pisarzowi, by zakopał go na 30 lat. Książka ukazała się najpierw w Paryżu nakładem Olympia Press – wydawnictwa specjalizującego się w literaturze pornograficznej, co dodatkowo utrudniło jej odbiór jako dzieła sztuki.",
+         "Żona pisarza, Véra Nabokov, wielokrotnie powstrzymywała męża przed fizycznym spaleniem rękopisu w ogrodowym piecu, kiedy ten wpadał w rozpacz z powodu braku perspektyw na publikację."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":2,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":8,
+      "archetype":"2. Władza boi się ciała – seksualność i obyczajowość",
+      "dane_bibliograficzne":{
+         "tytul":"Zwrotnik Raka",
+         "autor":"Henry Miller",
+         "rok_wydania":1934,
+         "kraj_pochodzenia":"Stany Zjednoczone / Francja",
+         "gatunek":"Powieść autobiograficzna / Strumień świadomości"
+      },
+      "o_czym_jest":"Powieść stanowi surowy, pozbawiony moralizatorstwa zapis życia amerykańskiego emigranta-literata w Paryżu w okresie wielkiego kryzysu lat 30. Miller rezygnuje z tradycyjnej fabuły na rzecz chaotycznego, pełnego energii strumienia świadomości. Opisuje skrajną biedę, głód, egzystencjalną pustkę oraz nieskrępowane, skrajnie naturalistyczne przygody seksualne z prostytutkami i przypadkowymi kobietami. Brutalny fizjologiczny realizm, wulgarny język ulicy oraz naturalistyczne opisy wydzielin ustrojowych przeplatają się w dziele z głębokimi, wizjonerskimi refleksjami filozoficznymi na temat śmierci sztuki, rozpadu cywilizacji zachodniej i powrotu człowieka do pierwotnej, zwierzęcej wolności.",
+      "dlaczego_byla_zakazywana":"Książkę okrzyknięto esencją pornografii i obsceniczności. Cenzorów przeraziło całkowite odarcie zbliżeń intymnych z romantycznej aury, miłości czy duchowości – Miller pisał o seksie z brutalnym obiektywizmem fizjologa, używając rynsztokowego słownictwa bez jakichkolwiek eufemizmów. Zarzucano mu promowanie rozwiązłości, nihilizmu, aspołecznego trybu życia oraz sianie zgorszenia publicznego na niespotykaną dotąd skalę.",
+      "historia_cenzury":{
+         "gdzie":"Stany Zjednoczone, Wielka Brytania, Kanada, Australia",
+         "kiedy":"Lata 1934–1964",
+         "przez_kogo":"Służba Celna USA (US Customs), Departament Sprawiedliwości USA, lokalne sądy i policja",
+         "jak_dlugo":"W Stanach Zjednoczonych i Wielkiej Brytanii książka była oficjalnie zakazana przez blisko 30 lat. Każda próba sprowadzenia jej egzemplarza groziła konfiskatą i procesem karnym, dopóki sprawa nie trafiła przed Sąd Najwyższy USA."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Lęk cenzorów budziła absolutna bezwstydność autora i jego drwiący stosunek do mieszczańskich wartości. Miller zniszczył tabu językowe, dowodząc, że słowa powszechnie uznane za brudne mogą służyć jako narzędzie autentycznej ekspresji artystycznej. Ponadto jego bezpardonowy atak na amerykański purytanizm i materializm uznano za wywrotowy i zagrażający spójności społecznej.",
+      "wplyw_na_kulture":"Przełomowy wyrok Sądu Najwyższego USA z 1964 roku w sprawie Grove Press Inc. przeciwko Gersteinowi ostatecznie zdefiniował granice tego, co prawo może uznać za 'obsceniczne'. Wyrok ten uwolnił amerykańską literaturę od pruderyjnych ograniczeń, otwierając drogę dla takich twórców jak Beatnicy (Kerouac, Ginsberg) czy Charles Bukowski. Miller udowodnił, że literatura wysoka może bez przeszkód czerpać z rynsztoka.",
+      "przeczytaj_takze":[
+         "Zwrotnik Koziorożca",
+         "Nagi lunch",
+         "Skowyt"
+      ],
+      "ciekawostki":[
+         "Przed 1961 rokiem 'Zwrotnik Raka' był jedną z najczęściej szmuglowanych książek w historii USA. Amerykańscy turyści masowo przemycali paryskie wydania ukryte w bieliźnie lub owinięte w okładki innych powieści.",
+         "Po opublikowaniu książki w USA w 1961 roku wytoczono ponad 60 procesów o obsceniczność przeciwko księgarzom, którzy odważyli się ją sprzedawać.",
+         "Wydawca Maurice Girodias wspominał, że Miller napisał książkę w nędzy, często kradnąc jedzenie lub żywiąc się u przyjaciół, wierząc, że tworzy dzieło, które na zawsze zniszczy dotychczasowy porządek literacki."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":3,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":4
+      }
+   },
+   {
+      "id":9,
+      "archetype":"3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne":{
+         "tytul":"O obrotach sfer niebieskich",
+         "autor":"Mikołaj Kopernik",
+         "rok_wydania":1543,
+         "kraj_pochodzenia":"Polska",
+         "gatunek":"Traktat naukowy"
+      },
+      "o_czym_jest":"Kluczowe dzieło naukowe prezentujące heliocentryczną teorię budowy Układu Słonecznego, która kategorycznie odrzuciła obowiązujący przez ponad tysiąc lat geocentryczny model Ptolemeusza. Kopernik dowodzi w nim za pomocą szczegółowych obliczeń matematycznych i geometrycznych, że to Ziemia (wraz z innymi planetami) krąży wokół nieruchomego Słońca, wykonując jednocześnie obrót wokół własnej osi. Teoria ta całkowicie zrewolucjonizowała fizykę oraz astronomię, gruntownie przesuwając pozycję człowieka i Ziemi z rzekomego, uprzywilejowanego centrum stworzenia w obszar kosmicznej powtarzalności.",
+      "dlaczego_byla_zakazywana":"Głównym powodem cenzury była rzekoma sprzeczność teorii heliocentrycznej z dosłowną interpretacją fragmentów Pisma Świętego (np. Księgi Jozuego, w której mowa o 'zatrzymaniu Słońca', czy psalmów mówiących o 'niewzruszonych fundamentach Ziemi'). Teologowie katoliccy i protestanccy uznali, że ruchomość Ziemi godzi w autorytet Biblii, a odebranie jej statusu centrum wszechświata degraduje człowieka jako koronę boskiego stworzenia, prowadząc do heretyckiego relatywismu.",
+      "historia_cenzury":{
+         "gdzie":"Kraje katolickie, Państwo Kościelne oraz protestanckie ośrodki uniwersyteckie.",
+         "kiedy":"Lata 1616–1835",
+         "przez_kogo":"Święte Oficjum (Kuria Rzymska) z polecenia papieża Pawła V, kardynał Robert Bellarmin.",
+         "jak_dlugo":"Dzieło zostało oficjalnie wpisane na Index Librorum Prohibitorum w 1616 roku po procesie Galileusza pod klauzulą 'do czasu poprawienia'. Choć skorygowane fragmenty dopuszczono w małym nakładzie, pełna wersja pozostawała na Indeksie przez ponad 200 lat. Została z niego ostatecznie usunięta dopiero w 1835 roku przez papieża Grzegorza XVI."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Przerażenie cenzorów wywołała obawa przed pęknięciem absolutnego dogmatu o nieomylności Kościoła w sprawach interpretacji natury fizycznej i duchowej świata. Heliocentryzm udowadniał, że tradycyjna egzegeza biblijna może się radykalnie mylić, co otwierało niebezpieczne drzwi dla samodzielnego myślenia naukowego, wolnego od nadzoru kościelnego magistratu.",
+      "wplyw_na_kulture":"Dzieło zapoczątkowało tzw. 'rewolucję kopernikańską', stając się kamieniem milowym i fundamentem nowożytnej rewolucji naukowej. Zmieniło cały filozoficzny paradygmat postrzegania ludzkiej egzystencji, dając impuls rozwojowi dzieł Galileusza, Keplera i Newtona. Wprowadziło do języka pojęcie 'przewrotu kopernikańskiego' na określenie fundamentalnej zmiany poglądów.",
+      "przeczytaj_takze":[
+         "Dialog o dwóch najważniejszych układach świata - Galileusz",
+         "O nieskończoności, wszechświecie i światach - Giordano Bruno",
+         "Skrót astronomii kopernikańskiej - Johannes Kepler"
+      ],
+      "ciekawostki":[
+         "Kopernik otrzymał pierwszy wydrukowany egzemplarz dzieła w dniu swojej śmierci (24 maja 1543 roku), co uchroniło go przed bezpośrednimi prześladowaniami.",
+         "Odpowiedzialny za druk teolog ewangelicki Andreas Osiander, obawiając się skandalu, samowolnie i anonimowo dodał do książki przedmowę, w której sugerował, że heliocentryzm to jedynie ułatwiająca obliczenia hipoteza matematyczna, a nie rzeczywisty opis świata.",
+         "Choć Kościół Katolicki sformalizował zakaz doperio w 1616 roku, już wcześniej Marcin Luter otwarcie skrytykował Kopernika, nazywając go 'nowym astrologiem, który chce dowieść, że to Ziemia się kręci, a nie niebo'."
+      ],
+      "ocena_wplywu":{
+         "literacki":3,
+         "polityczny":4,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":4
+      }
+   },
+   {
+      "id":10,
+      "archetype":"3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne":{
+         "tytul":"Ostatnie kuszenie Chrystusa",
+         "autor":"Nikos Kazantzakis",
+         "rok_wydania":1955,
+         "kraj_pochodzenia":"Grecja",
+         "gatunek":"Powieść biograficzno-filozoficzna"
+      },
+      "o_czym_jest":"Powieść przedstawia alternatywną, na wskroś psychologiczną i egzystencjalną wizję życia Jezusa z Nazaretu. Autor ukazuje Go jako postać rozdartą wewnętrznie pomiędzy swoją boską misją zbawienia a czysto ludzkimi pragnieniami i ułomnościami – strachem przed bólem, pragnieniem miłości cielesnej, założenia rodziny i spokojnego życia. Kulminacyjnym punktem powieści jest moment na krzyżu, gdzie szatan pod postacią młodego anioła stróża zsyła na Jezusa wizję kuszącą: wizję, w której rezygnuje on z męczeńskiej śmierci, żeni się z Marią Magdaleną (a po jej śmierci z Martą i Marią) i dożywa starości w gronie dzieci. Jezus ostatecznie odrzuca tę pokusę i budzi się z wizji na krzyżu, by z radością dopełnić ofiary.",
+      "dlaczego_byla_zakazywana":"Książkę uznano za skrajnie bluźnierczą ze względu na radykalne odarcie Jezusa z tradycyjnej, nieskalanej boskiej aury i ukazanie Go jako człowieka walczącego z pożądaniem, lękiem oraz zwątpieniem. Konserwatywni hierarchowie religijni potępili m.in. sceny, w których Jezus wykazuje słabość seksualną, miewa erotyczne sny, a także fakt, że autor poddał pod wątpliwość absolutną czystość i niezłomność Chrystusa w obliczu ziemskich uciech.",
+      "historia_cenzury":{
+         "gdzie":"Grecja, Watykan, kraje rzymskokatolickie, biblioteki i kina w USA.",
+         "kiedy":"Od 1954 roku do końca XX wieku.",
+         "przez_kogo":"Święty Synod Kościoła Prawosławnego Grecji, papież Pius XII, lokalne komitety cenzury obyczajowej.",
+         "jak_dlugo":"Książka została potępiona przez greckich hierarchów w 1954 roku (jeszcze przed pełnym wydaniem) i wpisana przez Watykan na Index Librorum Prohibitorum. W Grecji zakazy dystrybucji i nagonka na autora trwały do jego śmierci w 1957 roku, a potyczki wokół książki i jej adaptacji powracały falami w latach 80."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Przerażenie cenzorów wywołała próba głębokiej humanizacji bóstwa. Pokazanie, że Chrystus mógł autentycznie odczuwać ludzkie pokusy i zmagać się z kryzysem tożsamości, naruszało monolit sztywnego dogmatu teologicznego, według którego postać ta była całkowicie wolna od ułomności ludzkiej psychiki i fizjologii.",
+      "wplyw_na_kulture":"Dzieło Kazantzakisa to jedno z najważniejszych dokonań literatury egzystencjalnej XX wieku, redefiniujące podejście do wiary jako ciągłej walki ducha z ciałem. W 1988 roku Martin Scorsese nakręcił na jej podstawie głośną adaptację filmową pod tym samym tytułem, która wywołała olbrzymie demonstracje chrześcijan na całym świecie (w tym tragiczny pożar kina Saint-Michel w Paryżu wywołany przez fundamentalistów).",
+      "przeczytaj_takze":[
+         "Grek Zorba",
+         "Ewangelia według Jezusa Chrystusa",
+         "Szatańskie wersety"
+      ],
+      "ciekawostki":[
+         "Po opublikowaniu powieści Święty Synod w Atenach domagał się ekskomuniki autora, na co Kazantzakis odpowiedział słynnym cytatem z chrześcijańskiego pisarza Tertuliana: 'Ad tuum, Domine, tribunal appello' (Do Twojego trybunału, o Panie, się odwołuję).",
+         "Gdy Kazantzakis zmarł w Niemczech, greccy duchowni prawosławni odmówili pochówku na cmentarzu w Atenach. Ostatecznie pochowano go w Heraklionie na Krecie bez udziału oficjalnych władz kościelnych.",
+         "Na jego surowym, kamiennym grobie wyryto jego osobiste motto: 'Niczego się nie spodziewam. Niczego się nie lękam. Jestem wolny.'"
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":3,
+         "filozoficzny":5,
+         "spoleczny":4,
+         "aktualnosc":4
+      }
+   },
+   {
+      "id":11,
+      "archetype":"3. Władza boi się Boga – religia i herezja",
+      "dane_bibliograficzne":{
+         "tytul":"Kandyd, czyli optymizm",
+         "autor":"Voltaire (Wolter)",
+         "rok_wydania":1759,
+         "kraj_pochodzenia":"Francja",
+         "gatunek":"Powiastka filozoficzna"
+      },
+      "o_czym_jest":"Krótka, niezwykle dynamiczna opowieść o losach naiwnego młodzieńca Kandyda, ucznia filozofa Panglossa, który uczy go leibnizowskiej filozofii optymizmu, głoszącej, że 'wszystko dzieje się najlepiej na tym najlepszym z możliwych światów'. Wygnany ze swojego rajskiego zamku w Westfalii, Kandyd przemierza świat i na własne oczy doświadcza niewyobrażalnych nieszczęść: wojen, rzezi, gwałtów, trzęsienia ziemi w Lizbonie, nędzy oraz okrucieństw inkwizycji. Seria tych traumatycznych zdarzeń brutalnie demaskuje fałsz teorii o boskiej opatrzności i harmonii, doprowadzając bohatera do słynnej konkluzji, że jedynym sensem ludzkiego życia jest porzucenie pustych spekulacji metafizycznych na rzecz pragmatycznego działania, ujętego w metaforze: 'trzeba uprawiać nasz ogródek'.",
+      "dlaczego_byla_zakazywana":"Wolter dokonał bezlitosnego i jadowitego ataku na autorytet religii, Kościoła i duchowieństwa. Przedstawił inkwizytorów i mnichów jako chciwych, bezwzględnych hipokrytów, sadystów oraz rozpustników pławiących się w luksusie kosztem wyzysku prostych ludzi. Wyśmianie dogmatów teodycei (usprawiedliwienia Boga za zło na świecie) oraz samej idei opatrzności sprawiło, że władze religijne i państwowe uznały dzieło za bezpośredni zamach na chrześcijański ład moralny i porządek publiczny.",
+      "historia_cenzury":{
+         "gdzie":"Francja, Szwajcaria (Genewa), Państwo Kościelne, a w XX wieku granice celne USA.",
+         "kiedy":"Od 1759 r. do lat 30. XX wieku.",
+         "przez_kogo":"Rada Stanu we Francji, Rada Dwustu w Genewie, rzymska Kongregacja Indeksu (Index Librorum Prohibitorum), Służba Celna USA.",
+         "jak_dlugo":"Książka została natychmiast po opublikowaniu spalona publicznie w Genewie i Paryżu. Przez ponad 150 lat figurowała na kościelnym indeksie. Co ciekawe, w 1930 roku amerykańskie urzędy celne w Bostonie skonfiskowały nakład powieści pod zarzutem szerzenia 'obsceniczności', co wywołało olbrzymi skandal w środowisku akademickim."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Cenzorów najbardziej przeraziło użycie humoru, ironii i absurdu jako broni masowego rażenia wymierzonej w święte prawdy wiary. Wolter udowodnił, że wyśmianie religijnego fanatyzmu jest bez porównania skuteczniejsze i bardziej niszczycielskie niż najgłębsze, naukowe traktaty ateistyczne, ponieważ śmiech pozbawia opresyjne instytucje ich nastroju powagi i grozy.",
+      "wplyw_na_kulture":"Dzieło uznawane jest za jedno z najważniejszych arcydzieł epoki Oświecenia. Stało się symbolem walki o wolność słowa, tolerancję religijną i sekularyzację życia publicznego. Do dziś stanowi kanoniczny przykład krytycznej satyry społeczno-filozoficznej, inspirując pokolenia myślicieli, publicystów i pisarzy na całym świecie.",
+      "przeczytaj_takze":[
+         "Traktat o tolerancji",
+         "Podróże Guliwera",
+         "Listy perskie"
+      ],
+      "ciekawostki":[
+         "Książka ukazała się potajemnie i anonimowo, podpisana jako rzekome tłumaczenie z języka niemieckiego autorstwa nieistniejącego 'doktora Ralpha'. Wolter przez lata zaprzeczał autorstwu, określając dzieło jako 'coś absolutnie niegodnego jego pióra'.",
+         "Pomimo natychmiastowego zakazu druku i palenia egzemplarzy przez katów na rynkach miast, w samym tylko roku 1759 sprzedano gigantyczną jak na tamte czasy liczbę ponad 30 000 sztuk, co czyniło ją bestsellerem podziemnego obiegu.",
+         "Bezpośrednią inspiracją do napisania książki i uderzenia w optymizm filozoficzny było tragiczne trzęsienie ziemi w Lizbonie w 1555 roku, które w dniu Wszystkich Świętych obróciło miasto w gruz i zabiło tysiące wiernych modlących się w kościołach."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":5,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":4
+      }
+   },
+   {
+      "id":12,
+      "archetype":"4. Władza boi się pamięci – niewolnictwo, kolonializm, ludobójstwa",
+      "dane_bibliograficzne":{
+         "tytul":"Archipelag GUŁag",
+         "autor":"Aleksandr Sołżenicyn",
+         "rok_wydania":1973,
+         "kraj_pochodzenia":"ZSRR / Francja",
+         "gatunek":"Literatura faktu / Esej historyczno-badawczy"
+      },
+      "o_czym_jest":"Trzytomowe dzieło stanowiące monumentalne świadectwo funkcjonowania radzieckiego systemu obozów pracy przymusowej (łagrów) w latach 1918–1956. Sołżenicyn, sam będący byłym więźniem, oparł swoją opowieść na własnych doświadczeniach, relacjach 227 świadków oraz oficjalnych dokumentach historycznych. Książka szczegółowo opisuje proces aresztowania, śledztwa, nieludzkiego transportu kolejowego oraz wyniszczającą codzienność łagierników, demaskując terror jako organiczny, nieodłączny element ideologii bolszewickiej i stalinowskiej, a nie jedynie 'wypaczenie systemu'.",
+      "dlaczego_byla_zakazywana":"Publikacja zadała ostateczny, śmiertelny cios propagandowemu wizerunkowi Związku Radzieckiego na Zachodzie i obnażyła systemowy, zbrodniczy charakter państwa komunistycznego. W ZSRR posiadanie, czytanie lub potajemne rozpowszechnianie przepisywanych kopii (samizdatu) było traktowane jako najcięższa zbrodnia polityczna zagrażająca ustrojowi, karana wieloletnim więzieniem w łagrze o zaostrzonym rygorze.",
+      "historia_cenzury":{
+         "gdzie":"Związek Radziecki oraz wszystkie kraje bloku wschodniego (w tym PRL).",
+         "kiedy":"Od momentu potajemnego wywiezienia mikrofilmów na Zachód i wydania w 1973 roku, aż do upadku systemu komunistycznego.",
+         "przez_kogo":"KGB, Główny Urząd Ochrony Tajemnic Państwowych w Prasie (Gławlit), Biuro Polityczne KC KPZR.",
+         "jak_dlugo":"Całkowity, twardy zakaz publikacji i cenzura w ojczyźnie autora trwały przez 16 lat. Dopiero w 1989 roku, pod koniec rządów Michaiła Gorbaczowa w dobie reform głasnosti, zdecydowano się na oficjalny druk we fragmentach na łamach czasopisma literackiego 'Nowyj Mir'."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Cenzorów przeraziła prawda historyczna poparta ogromem relacji świadków, która niszczyła oficjalny mity założycielskie państwa. Dzieło odbierało partii monopol na interpretację przeszłości i udowadniało naukowo, że nieludzki system łagrów nie był czasową anomalią, ale fundamentalnym i koniecznym elementem systemu gospodarczo-społecznego komunizmu.",
+      "wplyw_na_kulture":"Dzieło doprowadziło do głębokiego i ostatecznego przewartościowania poglądów zachodnich intelektualistów, kładąc kres modzie na komunizm (szczególnie we Francji). Słowo 'Gułag' (początkowo skrót urzędowy) oraz samo pojęcie 'Archipelag' weszły na stałe do światowej leksykonu jako uniwersalna metafora rozproszonego, tajnego systemu represji i totalitaryzmu.",
+      "przeczytaj_takze":[
+         "Inny świat - Gustaw Herling-Grudziński",
+         "Opowiadania kołymskie - Warłam Szałamow",
+         "Jeden dzień Iwana Denisowicza - Aleksandr Sołżenicyn"
+      ],
+      "ciekawostki":[
+         "Sołżenicyn pisał to gigantyczne dzieło w głębokiej konspiracji, ukrywając poszczególne rozdziały w różnych zakątkach ZSRR u zaufanych przyjaciół.",
+         "Maszynopis został przepisany potajemnie przez Jelizawietę Woronianską. Gdy została aresztowana i poddana wielogodzinnym torturom przez KGB, wyjawiła skrytkę, a po powrocie do domu ze zgryzoty i poczucia winy odebrała sobie życie.",
+         "Zaledwie kilka tygodni po pierwszym wydaniu paryskim, w lutym 1974 roku, pisarz został aresztowany, pozbawiony obywatelstwa ZSRR i siłą deportowany samolotem do Niemiec Zachodnich."
+      ],
+      "ocena_wplywu":{
+         "literacki":4,
+         "polityczny":5,
+         "filozoficzny":5,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":13,
+      "archetype":"5. Władza boi się języka – eksperymenty literackie i awangarda",
+      "dane_bibliograficzne":{
+         "tytul":"Ulisses",
+         "autor":"James Joyce",
+         "rok_wydania":1922,
+         "kraj_pochodzenia":"Irlandia / Francja",
+         "gatunek":"Powieść modernistyczna, awangarda"
+      },
+      "o_czym_jest":"Akcja powieści zamyka się w ciągu jednej doby, 16 czerwca 1904 roku, w Dublinie. Śledzi ona codzienne, prozaiczne wędrówki i spotkania Leopolda Blooma (akwizytora reklam), jego niewiernej żony Molly oraz młodego nauczyciela i poety Stephena Dedalusa. Fabuła stanowi modernistyczną parodię 'Odysei' Homera, jednak jej prawdziwym bohaterem jest sam język. Joyce rezygnuje z tradycyjnej struktury narracyjnej na rzecz techniki strumienia świadomości, z niezwykłą dokładnością odwzorowując niekontrolowany bieg myśli, wspomnień, popędów, fizjologicznych doznań oraz skojarzeń płynących przez ludzkie umysły.",
+      "dlaczego_byla_zakazywana":"Powieść została okrzyknięta dziełem skrajnie obscenicznym, wulgarnym i bluźnierczym. Cenzorów zszokowały odważne, naturalistyczne opisy ludzkiej fizjologii (masturbacja, wypróżnianie, sny erotyczne, fantazje sado-masochistyczne) oraz bezpardonowe parodiowanie katolickiej liturgii mszy świętej. Obrońcy moralności byli przerażeni tym, że intymny, dotychczas skrywany monolog wewnętrzny człowieka został zaprezentowany bez moralnego potępienia w formie dzieła literackiego.",
+      "historia_cenzury":{
+         "gdzie":"Stany Zjednoczone, Wielka Brytania, Kanada",
+         "kiedy":"Lata 1920–1933",
+         "przez_kogo":"Służba Pocztowa USA (która konfiskowała i paliła zeszyty z odcinkami powieści), urzędy celne Wielkiej Brytanii, prokuratura generalna.",
+         "jak_dlugo":"W USA i Wielkiej Brytanii zakaz dystrybucji i sprzedaży trwał ponad dekadę. Przełom przyniósł dopiero słynny proces sądowy z 1933 roku (sprawa United States v. One Book Called Ulysses), w którym sędzia John Woolsey orzekł, że dzieło nie jest pornografią, lecz rewolucyjnym, legalnym osiągnięciem artystycznym."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Największym lękiem napawało całkowite zniszczenie tradycyjnego języka literackiego oraz norm społecznych. Pokazanie ludzkiej psychiki bez żadnych filtrów moralnych i społecznych dowodziło, że literatura wymyka się spod jakiejkolwiek kontroli państwowej i religijnej, promując absolutny indywidualizm jednostki kosztem narzuconych dogmatów.",
+      "wplyw_na_kulture":"Uznawana za najważniejszą i najbardziej wpływową powieść XX wieku, która wytyczyła nowe granice dla prozy światowej. Stylistyczne eksperymenty Joyce'a zainspirowały niezliczonych pisarzy na całym świecie. Co roku, 16 czerwca, wielbiciele literatury obchodzą 'Bloomsday' – globalne święto, podczas którego odtwarzają dubliński spacer Leopolda Blooma.",
+      "przeczytaj_takze":[
+         "W poszukiwaniu straconego czasu - Marcel Proust",
+         "Pani Dalloway - Virginia Woolf",
+         "Wściekłość i wrzask - William Faulkner"
+      ],
+      "ciekawostki":[
+         "Z powodu rygorystycznych zakazów druku w krajach anglosaskich, pierwsze pełne wydanie ukazało się w Paryżu nakładem niezależnej księgarni 'Shakespeare and Company' prowadzonej przez Sylvię Beach.",
+         "W rodzinnej Irlandii książka nigdy nie została oficjalnie zakazana przez państwową radę cenzury, ponieważ... urzędnicy uznali jej awangardową treść za zbyt trudną i niezrozumiałą, by mogła kogokolwiek zdemoralizować. Panował jednak cichy bojkot dystrybucyjny.",
+         "Końcowy monolog Molly Bloom, składający się z ponad 4 tysięcy słów pozbawionych całkowicie znaków interpunkcyjnych, do dziś uchodzi za jedno z najbardziej rewolucyjnych i technicznie wymagających dokonań w historii pisarstwa."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":2,
+         "filozoficzny":5,
+         "spoleczny":4,
+         "aktualnosc":4
+      }
+   },
+   {
+      "id":14,
+      "archetype":"6. Władza boi się dzieci – książki usuwane ze szkół",
+      "dane_bibliograficzne":{
+         "tytul":"Buszujący w zbożu",
+         "autor":"J.D. Salinger",
+         "rok_wydania":1951,
+         "kraj_pochodzenia":"Stany Zjednoczone",
+         "gatunek":"Powieść o dojrzewaniu (Bildungsroman)"
+      },
+      "o_czym_jest":"Szesnastoletni Holden Caulfield, po wyrzuceniu z kolejnej elitarnej szkoły średniej Pencey, postanawia nie wracać od razu do domu w Nowym Jorku. Zamiast tego spędza kilka grudniowych dni samotnie błąkając się po metropolii. Powieść jest szczerym, pełnym ironii, sarkazmu i melancholii monologiem wrażliwego nastolatka przechodzącego głęboki kryzys tożsamości. Holden buntuje się przeciwko powszechnej hipokryzji, konformizmowi i sztuczności dorosłego świata (który stale określa mianem 'phony'). Pragnie uchronić czystą niewinność dzieciństwa, co symbolizuje jego marzenie o byciu strażnikiem ratującym dzieci bawiące się w zbożu przed spadnięciem w przepaść dorosłości.",
+      "dlaczego_byla_zakazywana":"Książka stała się jedną z najczęściej zakazywanych i kwestionowanych pozycji w historii amerykańskiego szkolnictwa. Zarzucano jej nadużywanie wulgaryzmów (w tym słowa 'fuck'), promowanie młodzieńczego buntu wobec autorytetu rodziców i nauczycieli, poruszanie wątków związanych z pijaństwem, prostytucją i inicjacją seksualną oraz szerzenie nastrojów ateistycznych, nihilistycznych i depresyjnych.",
+      "historia_cenzury":{
+         "gdzie":"Stany Zjednoczone (szkoły średnie, licea i biblioteki we wszystkich stanach).",
+         "kiedy":"Od momentu publikacji w latach 50. XX wieku po czasy współczesne (apogeum nagonki miało miejsce w latach 60. i 70.).",
+         "przez_kogo":"Zarządy okręgów szkolnych, konserwatywne organizacje rodzicielskie (takie jak Mothers for Moral Stability), lokalne komitety kościelne.",
+         "jak_dlugo":"Cenzura ma charakter zdecentralizowany i powraca falami w zależności od regionu USA. Książka do dzisiaj regularnie pojawia się na corocznych listach dzieł zakazywanych w poszczególnych bibliotekach i szkołach publikowanych przez American Library Association (ALA)."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Prawdziwy, niczym nieprzefiltrowany głos nastoletniego buntu. Obrońcy moralności obawiali się, że Holden Caulfield stanie się idolem i wzorem do naśladowania dla dorastającej młodzieży, zarażając ich swoim cynizmem, brakiem szacunku dla tradycyjnych instytucji społecznych, brakiem ambicji oraz tendencją do aspołecznych, buntowniczych zachowań.",
+      "wplyw_na_kulture":"Powieść zyskała status kultowej książki pokoleniowej, która zdefiniowała nowoczesny archetyp młodzieńczego buntu w kulturze zachodniej. Wywarła kolosalny wpływ na muzykę rockową (m.in. utwory Green Day, The Smiths), literaturę młodzieżową (twórczość Johna Greena) oraz psychologię wieku rozwojowego.",
+      "przeczytaj_takze":[
+         "Zabić drozda - Harper Lee",
+         "Władca much - William Golding",
+         "Przygody Huckleberry'ego Finna - Mark Twain"
+      ],
+      "ciekawostki":[
+         "Książka zyskała mroczną i tragiczną sławę przez to, że Mark David Chapman zakupił jej egzemplarz tuż przed zastrzeleniem Johna Lennona w 1980 roku i trzymał go w rękach czekając na policję, twierdząc, że treść powieści wyjaśnia jego motywację.",
+         "Autor J.D. Salinger, przerażony nagłą sławą, nagonką medialną oraz kontrowersjami wokół książki, wycofał się całkowicie z życia publicznego i do śmierci w 2010 roku żył jako pustelnik w New Hampshire, surowo zabraniając ekranizacji swojego dzieła.",
+         "W 1960 roku nauczyciel z liceum w stanie Michigan został dyscyplinarnie zwolniony z pracy wyłącznie za to, że odważył się umieścić 'Buszującego w zbożu' jako lekturę uzupełniającą dla uczniów klasy maturalnej."
+      ],
+      "ocena_wplywu":{
+         "literacki":5,
+         "polityczny":2,
+         "filozoficzny":4,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   },
+   {
+      "id":15,
+      "archetype":"7. Władza boi się wyobraźni – fantastyka, komiks i literatura młodzieżowa",
+      "dane_bibliograficzne":{
+         "tytul":"Harry Potter i Kamień Filozoficzny",
+         "autor":"J.K. Rowling",
+         "rok_wydania":1997,
+         "kraj_pochodzenia":"Wielka Brytania",
+         "gatunek":"Powieść fantasy / Literatura młodzieżowa"
+      },
+      "o_czym_jest":"Pierwszy tom sagi o osieroconym chłopcu, który w dniu swoich jedenastych urodzin dowiaduje się, że jest czarodziejem i został przyjęty do Hogwartu – Szkoły Magii i Czarodziejstwa. Harry opuszcza dom okrutnego wujostwa, by wejść do magicznego świata pełnego niezwykłych stworzeń, zaklęć i tajemnic. Tam znajduje wiernych przyjaciół (Rona i Hermionę), ale dowiaduje się również o mrocznym przeznaczeniu – jako jedyny przeżył atak potężnego czarnoksiężnika Voldemorta, który zamordował jego rodziców i teraz planuje powrót do władzy.",
+      "dlaczego_byla_zakazywana":"Książkę oskarżano o promowanie okultyzmu, czarownictwa, pogaństwa oraz satanizmu. Konserwatywne i chrześcijańskie środowiska na całym świecie twierdziły, że powieść oswaja dzieci z magią, zachęca do rzucania uroków oraz buntu przeciwko dorosłym (mugolom). Krytykowano też rzekome rozmywanie granic między dobrem a złem.",
+      "historia_cenzury":{
+         "gdzie":"Stany Zjednoczone, Wielka Brytania, Zjednoczone Emiraty Arabskie, lokalnie w Polsce (np. publiczne palenie książek przez księży w Gdańsku w 2019 r.).",
+         "kiedy":"Od końca lat 90. XX wieku po czasy współczesne.",
+         "przez_kogo":"Chrześcijańskie stowarzyszenia rodziców, rady szkół wyznaniowych, urzędnicy państwowi ds. edukacji (np. w ZEA zakazano książki w szkołach prywatnych).",
+         "jak_dlugo":"Batalie w amerykańskich bibliotekach szkolnych trwają nieprzerwanie od ponad 20 lat. Książka zajmowała 1. miejsce na liście najczęściej kwestionowanych pozycji w USA w latach 2000–2009."
+      },
+      "co_najbardziej_przestraszylo_cenzorow":"Niezwykła, magnetyczna siła dziecięcej wyobraźni, która odciągnęła miliony młodych ludzi od tradycyjnych lektur religijnych i moralizatorskich. Lęk przed tym, że magia przedstawiona w atrakcyjnej i nowoczesnej formie osłabi wiarę i autorytet kościołów, otwierając umysły dzieci na alternatywne ścieżki duchowe i filozoficzne.",
+      "wplyw_na_kulture":"Najlepiej sprzedająca się seria książkowa w historii ludzkości, która zrewolucjonizowała rynek wydawniczy i uratowała czytelnictwo młodzieżowe na przełomie tysiącleci. Zapoczątkowała globalny fenomen popkulturowy (filmy, parki rozrywki, gadżety), trwale definiując wyobraźnię pokolenia przełomu wieków.",
+      "przeczytaj_takze":[
+         "Opowieści z Narnii - C.S. Lewis",
+         "Mroczne materie - Philip Pullman",
+         "Czarnoksiężnik z Archipelagu - Ursula K. Le Guin"
+      ],
+      "ciekawostki":[
+         "W 2001 roku w stanie Nowy Meksyk lokalna wspólnota kościelna zorganizowała publiczny stos, na którym spalono dziesiątki egzemplarzy powieści jako 'dzieło szatana'.",
+         "Pierwszy wydawca (Bloomsbury) poprosił autorkę o podpisanie książki jako J.K. Rowling zamiast Joanne Rowling, obawiając się, że chłopcy nie będą chcieli czytać książki napisanej przez kobietę.",
+         "Mimo oskarżeń o antychrześcijański charakter sagi, wielu teologów (w tym arcybiskup Canterbury) wskazywało na głębokie, tradycyjne motywy chrześcijańskie obecne w powieści, takie jak miłość silniejsza niż śmierć, ofiara i odkupienie."
+      ],
+      "ocena_wplywu":{
+         "literacki":4,
+         "polityczny":2,
+         "filozoficzny":3,
+         "spoleczny":5,
+         "aktualnosc":5
+      }
+   }
+]
